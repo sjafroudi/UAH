@@ -2,7 +2,27 @@
 	"type": "FeatureCollection",
 	"features": [{
 		"type": "Feature",
-		"properties": {},
+		"properties": {
+      "marker-color":"",
+      "marker-size":"",
+      "marker-symbol":"",
+      "site-name":"Fenway Victory Gardens",
+      "location":"",
+      "size":" (km²)",
+      "heritage-status":"",
+      "geog-and-climate":"",
+      "urban-int":"",
+      "main-products":"",
+      "scale-of-op":"",
+      "cultivation-sys":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "current incentives":"",
+      "sources":""
+    },
 		"geometry": {
 			"type": "Point",
 			"coordinates": [
@@ -10,5 +30,36 @@
 				42.34583405051044
 			]
 		}
-	}]
+	},
+  {
+    "type": "Feature",
+    "properties": {
+      "marker-color":"",
+      "marker-size":"",
+      "marker-symbol":"",
+      "site-name":"Dachas",
+      "location":"",
+      "size":" (km²)",
+      "heritage-status":"",
+      "geog-and-climate":"",
+      "urban-int":"",
+      "main-products":"",
+      "scale-of-op":"",
+      "cultivation-sys":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "current incentives":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        30.3609,
+        59.9311
+      ]
+    }
+  }]
 }
