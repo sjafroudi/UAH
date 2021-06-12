@@ -61,5 +61,68 @@
         59.9311
       ]
     }
+  },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color":"",
+        "marker-size":"",
+        "marker-symbol":"",
+        "site-name":"Central Experimental Farm",
+        "location":"",
+        "size":" (km²)",
+        "heritage-status":"",
+        "geog-and-climate":"",
+        "urban-int":"",
+        "main-products":"",
+        "scale-of-op":"",
+        "cultivation-sys":"",
+        "history":"",
+        "heritage":"",
+        "stakeholders":"",
+        "customers":"",
+        "risks":"",
+        "current incentives":"",
+        "sources":""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.709121,
+          45.387436
+        ]
+      }
+    },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color":"",
+          "marker-size":"",
+          "marker-symbol":"",
+          "site-name":"Five Acre Farm",
+          "location":"",
+          "size":" (km²)",
+          "heritage-status":"",
+          "geog-and-climate":"",
+          "urban-int":"",
+          "main-products":"",
+          "scale-of-op":"",
+          "cultivation-sys":"",
+          "history":"",
+          "heritage":"",
+          "stakeholders":"",
+          "customers":"",
+          "risks":"",
+          "current incentives":"",
+          "sources":""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.945692,
+            49.142222
+          ]
+        }
+      }  
   }]
 }
