@@ -115,6 +115,146 @@
   {
     "type": "Feature",
     "properties": {
+      "site":"Glamorgan Farm",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "urbanIntegration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+          -123.42618227005006,
+          48.65827195622189
+        ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"London Heritage Farm",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "urbanIntegration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+          -123.15192103385925,
+          49.11459930134597
+        ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"London Heritage Farm",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "urbanIntegration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+          -123.15192103385925,
+          49.11459930134597
+        ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"Newman Farm",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "urbanIntegration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -123.3957552909851,
+          48.60175757341526
+        ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"UBC Farm",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "urbanIntegration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+				-123.23730111122131,
+          49.24969709206112
+			]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
       "site":"Dachas",
       "location":"",
       "size":" (km²)",
