@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Display a map on a webpage</title>
+  <title>UAH Interactive Atlas</title>
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
   <link href="https://api.mapbox.com/mapbox-gl-js/v2.3.0/mapbox-gl.css" rel="stylesheet">
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.0/mapbox-gl.js"></script>
@@ -20,11 +20,13 @@
   <script>
 
   mapboxgl.accessToken = 'pk.eyJ1Ijoic2phZnJvdWRpIiwiYSI6ImNra2VibWp0azB5azUyb256dHlpaHRtNDQifQ.LBpfWLTC701RZ51wpR_E9A';
+  var bounds = [[-158, -50],[180, 72]];
   var map = new mapboxgl.Map({
     container: 'map', // container id
     style: 'mapbox://styles/sjafroudi/ckkebwmd4094i17rvfpitb0pz', // style URL
-    center: [-71.0929799079895,42.34583405051044], // starting position [lng, lat] 30.3609, 59.9311
-    zoom: 9 // starting zoom
+    center: [0, 0], // starting position [lng, lat] 30.3609, 59.9311
+    zoom: 0.2, // starting zoom
+    maxBounds: bounds
   });
 
   // DATA: UAH Polygons
@@ -87,15 +89,15 @@
 
   // DATA: Dachas St Petersburg Buffer Zone
   map.on('load', function () {
-    map.addSource('dachasRadius', {
+    map.addSource('boundaryFile', {
       type: 'geojson',
-      data: 'https://raw.githubusercontent.com/sjafroudi/UAH/main/BUFFER.geojson'
+      data: 'https://raw.githubusercontent.com/sjafroudi/UAH/main/boundaries.geojson'
     });
 
     map.addLayer({
-      'id': 'DachasRadius',
+      'id': 'boundaryFill',
       'type': 'fill',
-      'source': 'dachasRadius',
+      'source': 'boundaryFile',
       'paint': {
         'fill-color': '#9b9ba0',
         'fill-outline-color': '#9b9ba0',
@@ -104,19 +106,22 @@
     });
 
     map.addLayer({
-      'id': 'DachasRadiusBoundary',
+      'id': 'boundaryStroke',
       'type': 'line',
-      'source': 'dachasRadius',
+      'source': 'boundaryFile',
       'paint': {
         'line-color': '#959ba0',
         'line-width': 0.8
       }
     });
+
+    map.setLayerZoomRange('boundaryStroke', 0, 24);
+
   });
 
   // DATA: Points
   map.on('load', function () {
-    map.loadImage('https://raw.githubusercontent.com/sjafroudi/UAH/main/marker-stroked15.png', function (error, image){
+    map.loadImage('https://raw.githubusercontent.com/sjafroudi/UAH/main/mapbox-marker-icon-20px-gray.png', function (error, image){
       if (error) throw error;
       map.addImage('icon', image);
       map.addSource('points', {
@@ -131,13 +136,14 @@
         'layout': {
           'icon-allow-overlap': true,
           'icon-image': 'icon',
-          'icon-size': 0.1
+          'icon-size': 0.8
         },
         'paint': {
           'icon-color': '#c0c0c0'
         }
       });
 
+      // Create popup variable
       var popup = new mapboxgl.Popup({
         closeButton: false,
         closeOnClick: false
