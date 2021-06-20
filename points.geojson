@@ -171,34 +171,6 @@
   {
     "type": "Feature",
     "properties": {
-      "site":"London Heritage Farm",
-      "location":"",
-      "size":" (km²)",
-      "heritageStatus":"",
-      "geogAndClimate":"",
-      "urbanIntegration":"",
-      "mainProducts":"",
-      "operationScale":"",
-      "cultivationSystem":"",
-      "history":"",
-      "heritage":"",
-      "stakeholders":"",
-      "customers":"",
-      "risks":"",
-      "incentives":"",
-      "sources":""
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-          -123.15192103385925,
-          49.11459930134597
-        ]
-    }
-  },
-  {
-    "type": "Feature",
-    "properties": {
       "site":"Newman Farm",
       "location":"",
       "size":" (km²)",
@@ -249,6 +221,90 @@
       "coordinates": [
 				-123.23730111122131,
           49.24969709206112
+			]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"Sant Erasmo",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "urbanIntegration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+          12.41231918334961,
+          45.4571204521042
+        ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"Chinampas",
+      "location":"Xochimilco, Mexico",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "urbanIntegration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+				-99.079256,
+          19.271650
+			]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"El Pilar Forest Garden",
+      "location":"San Ignacio, Belize",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "urbanIntegration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -89.155278,
+        17.256667
 			]
     }
   },
