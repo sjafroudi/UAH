@@ -1,5 +1,5 @@
 # UAH
-UAH Atlas
+Urban Agricultural Heritage (UAH) Interactive Atlas
 
 ## File Directory
     .
