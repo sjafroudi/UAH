@@ -18,8 +18,5 @@ Urban Agricultural Heritage (UAH) Interactive Atlas
     │   └── dachasStPetersburg.geojson                   # geoJSON format multi polygon file for Dacahas of St Petersburg system
     ├── factSheetTemplate.geojson                        # geoJSON template for fact sheet information
     └── ...
-    
-    ## Fact Sheet Template
-    
-    ![alt text](https://user-images.githubusercontent.com/69770919/123130056-4b668d80-d401-11eb-9950-668ecdc15c97.png")
+   
 
