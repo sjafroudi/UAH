@@ -16,7 +16,7 @@ Urban Agricultural Heritage (UAH) Interactive Atlas
     ├── uahMultiPolygons                                 
     │   ├── LaHuertaDeValencia.geojson                   # geoJSON format multi polygon file for La Huerta de Valencia system
     │   └── dachasStPetersburg.geojson                   # geoJSON format multi polygon file for Dacahas of St Petersburg system
-    ├── factSheetTemplate.geojson                        # geoJSON template for fact sheet information
+    ├── factSheetTemplate.txt                            # geoJSON template for fact sheet information
     └── ...
    
 
