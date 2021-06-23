@@ -21,5 +21,5 @@ Urban Agricultural Heritage (UAH) Interactive Atlas
     
     ## Fact Sheet Template
     
-    <img width="536" alt="Screen Shot 2021-06-23 at 8 59 15 AM" src="https://user-images.githubusercontent.com/69770919/123130056-4b668d80-d401-11eb-9950-668ecdc15c97.png">
+    ![alt text](https://user-images.githubusercontent.com/69770919/123130056-4b668d80-d401-11eb-9950-668ecdc15c97.png")
 
