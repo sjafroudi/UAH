@@ -214,23 +214,7 @@
     <div id="map"></div>
     <script>
 
-    /* Loop through all dropdown buttons to toggle between hiding and showing its
-    dropdown content - This allows the user to have multiple dropdowns without any
-    conflict */
-    var dropdown = document.getElementsByClassName("button");
-    var i;
 
-    for (i = 0; i < dropdown.length; i++) {
-      dropdown[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var dropdownContent = this.nextElementSibling;
-        if (dropdownContent.style.display === "block") {
-          dropdownContent.style.display = "none";
-        } else {
-          dropdownContent.style.display = "block";
-        }
-      });
-    }
 
     // Mapbox access token and style ID
     mapboxgl.accessToken = 'pk.eyJ1Ijoic2phZnJvdWRpIiwiYSI6ImNra2VibWp0azB5azUyb256dHlpaHRtNDQifQ.LBpfWLTC701RZ51wpR_E9A';
@@ -243,219 +227,102 @@
       maxBounds: bounds
     });
 
-    // DATA: Site boundaries (i.e., Central Experimental Farm, Five Acre Farm)
-    map.on('load', function () {
-      map.addSource('data', {
-        type: 'geojson',
-        data: 'https://raw.githubusercontent.com/sjafroudi/UAH/main/boundaries/siteBoundaries.geojson'
-      });
-      // fill
-      map.addLayer({
-        'id': 'Site',
-        'type': 'fill',
-        'source': 'data',
-        'paint': {
-          'fill-color': '#888888',
-          'fill-outline-color': '#6a0dad',
-          'fill-opacity': 0.4
-        }
-      });
-      // outline
-      map.addLayer({
-        'id': 'Boundary',
-        'type': 'line',
-        'source': 'data',
-        'paint': {
-          'line-color': '#888',
-          'line-width': 3
-        }
-      });
-    });
+    map.on('style.load', function() {
+            // Always add the same custom soruces and layers after a style change
 
-    // DATA: Municipal boundaries (i.e., Kuttanad, Dachas Buffer Zone)
-    map.on('load', function () {
-      map.addSource('boundaryFile', {
-        type: 'geojson',
-        data: 'https://raw.githubusercontent.com/sjafroudi/UAH/main/boundaries/municipalBoundaries.geojson'
-      });
+            // DATA: Site boundaries (i.e., Central Experimental Farm, Five Acre Farm)
+            map.addSource('data', {
+                type: 'geojson',
+                data: 'https://raw.githubusercontent.com/sjafroudi/UAH/main/siteBoundaries.geojson'
+              });
+              // fill
+              map.addLayer({
+                "id":"site",
+                'type': 'circle',
+                'source': 'data',
+                'paint': {
+                  'circle-radius': 3,
+                  'circle-color': 'white',
+                  'circle-stroke-color': 'black',
+                  'circle-stroke-width': 0.3
 
-      // fill
-      map.addLayer({
-        'id': 'boundaryFill',
-        'type': 'fill',
-        'source': 'boundaryFile',
-        'paint': {
-          'fill-color': '#9b9ba0',
-          'fill-outline-color': '#9b9ba0',
-          'fill-opacity': 0.05
+                },
+                "filter": ["==", "$type", "Point"]
+              });
+
+              map.addLayer({
+                'id': 'Boundary',
+                'type': 'line',
+                'source': 'data',
+                'paint': {
+                  'line-color': 'red',
+                  'line-width': 1
+                },
+                "filter": ["==", "$type", "Polygon"]
+              });
+
+
+
+
+            });
+
+        var layerList = document.getElementById('menu');
+        var inputs = layerList.getElementsByTagName('input');
+
+        function switchLayer(layer) {
+            var layerId = layer.target.id;
+            map.setStyle('mapbox://styles/' + layerId);
         }
-      });
 
-      // outline
-      map.addLayer({
-        'id': 'boundaryStroke',
-        'type': 'line',
-        'source': 'boundaryFile',
-        'paint': {
-          'line-color': '#959ba0',
-          'line-width': 0.8
+        for (var i = 0; i < inputs.length; i++) {
+            inputs[i].onclick = switchLayer;
+
         }
-      });
-
-      // ensure zoom range is set to exclude polar regions
-      map.setLayerZoomRange('boundaryStroke', 0, 24);
-
-    });
-
-    // DATA: Dachas MultiPolygon (polyons within 120 km radius of Saint Petersburg)
-    map.on('load', function () {
-      map.addSource('dachas', {
-        type: 'geojson',
-        data: 'https://raw.githubusercontent.com/sjafroudi/UAH/main/uahMultiPolygons/dachasStPetersburg.geojson'
-      });
-      // fill
-      map.addLayer({
-        'id': 'Dachas',
-        'type': 'fill',
-        'source': 'dachas',
-        'paint': {
-          'fill-color': '#9b9ba0',
-          'fill-outline-color': '#9b9ba0',
-          'fill-opacity': 0.4
-        }
-      });
-      // outline
-      map.addLayer({
-        'id': 'Dachas_Boundary',
-        'type': 'line',
-        'source': 'dachas',
-        'paint': {
-          'line-color': '#959ba0',
-          'line-width': 1
-        }
-      });
-    });
-
-    // DATA: La Huerta de Valencia MultiPolygon
-    map.on('load', function () {
-      map.addSource('LaHuertaDeValencia', {
-        type: 'geojson',
-        data: 'https://raw.githubusercontent.com/sjafroudi/UAH/main/uahMultiPolygons/LaHuertaDeValencia.geojson'
-      });
-      // fill
-      map.addLayer({
-        'id': 'fillLaHuertaDeValencia',
-        'type': 'fill',
-        'source': 'LaHuertaDeValencia',
-        'paint': {
-          'fill-color': '#9b9ba0',
-          'fill-outline-color': '#9b9ba0',
-          'fill-opacity': 0.4
-        }
-      });
-      // outline
-      map.addLayer({
-        'id': 'lineLaHuertaDeValencia',
-        'type': 'line',
-        'source': 'LaHuertaDeValencia',
-        'paint': {
-          'line-color': '#959ba0',
-          'line-width': 1
-        }
-      });
-    });
-
-    // DATA: Chinampas de Xochimilco MultiPolygon
-    map.on('load', function () {
-      map.addSource('chinampasXochimilco', {
-        type: 'geojson',
-        data: 'https://raw.githubusercontent.com/sjafroudi/UAH/main/uahMultiPolygons/chinampasXochimilco.geojson'
-      });
-      // fill
-      map.addLayer({
-        'id': 'fillChinampasXochimilco',
-        'type': 'fill',
-        'source': 'chinampasXochimilco',
-        'paint': {
-          'fill-color': '#9b9ba0',
-          'fill-outline-color': '#9b9ba0',
-          'fill-opacity': 0.4
-        }
-      });
-      // outline
-      map.addLayer({
-        'id': 'lineChinampasXochimilco',
-        'type': 'line',
-        'source': 'chinampasXochimilco',
-        'paint': {
-          'line-color': '#959ba0',
-          'line-width': 1
-        }
-      });
-    });
-
-    // DATA: Points
-    map.on('load', function () {
-      map.loadImage('https://raw.githubusercontent.com/sjafroudi/UAH/main/images/mapbox-marker-icon-20px-gray.png', function (error, image){
-        if (error) throw error;
-        map.addImage('icon', image);
-        map.addSource('points', {
-          type: 'geojson',
-          data: 'https://raw.githubusercontent.com/sjafroudi/UAH/main/points/points.geojson'
-        });
-
-        // point icons
-        map.addLayer({
-          'id': 'Points',
-          'type': 'symbol',
-          'source': 'points',
-          'layout': {
-            'icon-allow-overlap': true,
-            'icon-image': 'icon',
-            'icon-size': 0.8
-          },
-          'paint': {
-            'icon-color': '#c0c0c0'
-          }
-        });
 
         // Create popup variable
         var popup = new mapboxgl.Popup({
-          closeButton: false,
-          closeOnClick: false
+          closeButton: true,
+          closeOnClick: true
         });
 
-        map.on('mouseenter', 'Points', function(e) {
-          map.getCanvas().style.cursor = 'pointer';
+        map.on('click', 'site', function(e) {
           popup.setLngLat(e.features[0].geometry.coordinates);
-          popup.setHTML('<h3>' + e.features[0].properties.site + '</h3>');
+          popup.setHTML('<div class="popup"><p class="twentysixpoint"><t href="#">' + e.features[0].properties.site + '</t><br>' +
+            "Location: " + e.features[0].properties.location + '<br>' +
+              "Size: " + e.features[0].properties.size + '<br>' +
+              "Heritage Status: " + e.features[0].properties.heritageStatus + '<br></p><span id="more"></div>' + '<button class="button button1" onclick="myFunction()" id="myBtn"><t href="#">' + "View full fact sheet" + '</t></button>');
           popup.addTo(map);
         });
 
-        map.on('mouseleave', 'Points', function() {
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read less";
+            moreText.style.display = "inline";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "View full fact sheet";
+            moreText.style.display = "none";
+          }
+        }
+
+        map.on('mouseenter', 'site', function () {
+          map.getCanvas().style.cursor = 'pointer';
+          });
+
+        map.on('mouseleave', 'site', function() {
           map.getCanvas().style.cursor = '';
-          popup.remove();
         });
 
-        map.setLayerZoomRange('Points', 0, 24);
 
-      });
-    });
+        map.setLayerZoomRange('site', 0, 24);
 
-    var layerList = document.getElementById('menu');
-    var inputs = layerList.getElementsByTagName('input');
 
-    function switchLayer(layer) {
-      var layerId = layer.target.id;
-      map.setStyle('mapbox://styles/' + layerId);
-    }
+    </script>
 
-    for (var i = 0; i < inputs.length; i++) {
-      inputs[i].onclick = switchLayer;
-
-    }
-
-  </script>
-
-</body>
-</html>
+  </body>
+  </html>
