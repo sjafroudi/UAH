@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Basemap menu -->
+<div id="menu">
+  <input id="sjafroudi/ckkebwmd4094i17rvfpitb0pz" type="radio" name="rtoggle" value="light" checked="checked">
+  <label for="ckkebwmd4094i17rvfpitb0pz">light</label>
+  <input id="mapbox/satellite-v9" type="radio" name="rtoggle" value="satellite">
+  <label for="satellite-v9">satellite</label>
+</div>
+
+<!-- Side navigation -->
+<div class="sidenav">
+  <h href="#">Urban Agricultural Heritage Interactive Atlas</h>
+
+  <!-- Search bar -->
+  <a href="#"><input type="text" placeholder="Search.."></a>
+
+  <!-- Catalogue -->
+  <button class="button button1">Catalogue
+    <i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-container">
+
+      <ab href="#">North America</ab>
+      <c href="#">Central Experimental Farm</c>
+      <c href="#">Dowling School Victory Garden</c>
+      <c href="#">Fenway Victory Gardens</c>
+      <c href="#">Five Acre Farm</c>
+      <c href="#">Glamorgan Farm</c>
+      <c href="#">London Heritage Farm</c>
+      <c href="#">Newman Farm</c>
+      <c href="#">UBC Farm</c>
+
+      <ab href="#">Central America</ab>
+      <c href="#">Chinampas</c>
+      <c href="#">El Pilar Forest Garden</c>
+
+      <ab href="#">South America</ab>
+      <c href="#"></c>
+      <c href="#"></c>
+
+      <ab href="#">Europe</ab>
+      <c href="#">Bude Farm</c>
+      <c href="#">Can Masdeu</c>
+      <c href="#">Jucker Farm</c>
+      <c href="#">Via Integration</c>
+      <c href="#">Sant Erasmo</c>
+      <c href="#">Dachas (Johannesburg)</c>
+
+      <ab href="#">Middle East and North Africa</ab>
+      <c href="#"></c>
+      <c href="#"></c>
+
+      <ab href="#">Sub-Saharan Africa</ab>
+      <c href="#"></c>
+      <c href="#"></c>
+
+      <ab href="#">Central & West Asia</ab>
+      <c href="#"></c>
+      <c href="#"></c>
+
+      <ab href="#">South & Southeast Asia</ab>
+      <c href="#"></c>
+      <c href="#"></c>
+    </div>
+
+    <!-- Filter -->
+    <a href="#">Filter</a>
+    <ab href="#">Heritage status:</ab>
+    <t href="#">
+      <input type="checkbox" id="status" name="status" value="all">
+      <label for="status"> All</label><br>
+      <input type="checkbox" id="status1" name="status1" value="FAO">
+      <label for="status1"> UN FAO GIAHS</label><br>
+      <input type="checkbox" id="status2" name="status2" value="FAOPending">
+      <label for="status2"> UN FAO GIAHS Pending</label><br>
+      <input type="checkbox" id="status3" name="status3" value="UNESCO">
+      <label for="status3"> UNESCO Heritage Site</label><br>
+      <input type="checkbox" id="status4" name="status4" value="UNESCOPending">
+      <label for="status4"> UNESCO Heritage Site Pending</label><br>
+      <input type="checkbox" id="status5" name="status5" value="National">
+      <label for="status5"> National Historic Site</label><br>
+      <input type="checkbox" id="status6" name="status6" value="Provincial">
+      <label for="status6"> Provincial Historic Site</label><br>
+      <input type="checkbox" id="status7" name="status7" value="Local">
+      <label for="status7"> Local Historic Site</label><br>
+      <input type="checkbox" id="status8" name="status8" value="na">
+      <label for="status8"> n/a</label><br>
+    </t>
+    <f href="#">Urban Agriculture type:</f>
+    <t href="#">
+      <input type="checkbox" id="uatype" name="uatype" value="all">
+      <label for="uatype"> All</label><br>
+      <input type="checkbox" id="uatype1" name="uatype1" value="Community">
+      <label for="uatype1"> Community Garden</label><br>
+      <input type="checkbox" id="uatype2" name="uatype2" value="Commercial">
+      <label for="uatype2"> Commercial Farm</label><br>
+      <input type="checkbox" id="uatype3" name="uatype3" value="Educational">
+      <label for="uatype3"> Educational Garden</label><br>
+      <input type="checkbox" id="uatype4" name="uatype4" value="Allotment">
+      <label for="uatype5"> Allotment Garden</label><br>
+      <input type="checkbox" id="uatype5" name="uatype5" value="Squatter">
+      <label for="uatype5"> Squatter Gardens</label><br>
+      <input type="checkbox" id="uatype6" name="uatype6" value="Leisure">
+      <label for="uatype6"> Leisure and Educational Garden</label><br>
+      <input type="checkbox" id="uatype7" name="uatype7" value="Therapeutic">
+      <label for="uatype7"> Therapeutic Farm</label><br>
+      <input type="checkbox" id="uatype8" name="uatype8" value="Social">
+      <label for="uatype8"> Social Farm</label><br>
+      <input type="checkbox" id="uatype9" name="uatype9" value="Cultural">
+      <label for="uatype9"> Cultural Heritage Farm</label><br>
+      <input type="checkbox" id="uatype10" name="uatype10" value="Experimental">
+      <label for="uatype10"> Experimental Farm</label><br>
+      <input type="checkbox" id="uatype11" name="uatype11" value="LocalFood">
+      <label for="uatype11"> Local Food Farm</label><br>
+      <input type="checkbox" id="uatype12" name="uatype12" value="EnvironmentalFarm">
+      <label for="uatype12"> Environmental Farm</label><br>
+    </t>
+    <f href="#">Generalized Risks:</f>
+    <t href="#">
+      <input type="checkbox" id="risk" name="risk" value="all">
+      <label for="risk"> All</label><br>
+      <input type="checkbox" id="risk1" name="risk1" value="Environmental">
+      <label for="risk1"> Environmental</label><br>
+      <input type="checkbox" id="risk2" name="risk2" value="Economic">
+      <label for="risk2"> Economic</label><br>
+      <input type="checkbox" id="risk3" name="risk3" value="LandUseOwnership">
+      <label for="risk3"> Land Use and Ownership</label><br>
+    </t>
+    <f href="#">Risks to System:</f>
+    <t href="#">
+      <input type="checkbox" id="risk2sys" name="risk2sys" value="all">
+      <label for="risk2sys"> All</label><br>
+      <input type="checkbox" id="risk2sys1" name="risk2sys1" value="flood">
+      <label for="risk2sys1"> Flooding</label><br>
+      <input type="checkbox" id="risk2sys2" name="risk2sys2" value="drought">
+      <label for="risk2sys2"> Drought</label><br>
+      <input type="checkbox" id="risk2sys3" name="risk2sys3" value="pollution">
+      <label for="risk2sys3"> Pollution</label><br>
+      <input type="checkbox" id="risk2sys4" name="risk2sys4" value="fertilizers">
+      <label for="risk2sys4"> Fertilizers/Pesticides</label><br>
+      <input type="checkbox" id="risk2sys5" name="risk2sys5" value="globalwarming">
+      <label for="risk2sys5"> Global Warming</label><br>
+      <input type="checkbox" id="risk2sys6" name="risk2sys6" value="watermgmt">
+      <label for="risk2sys6"> Water Management</label><br>
+      <input type="checkbox" id="risk2sys7" name="risk2sys7" value="soil">
+      <label for="risk2sys7"> Soil Quality</label><br>
+      <input type="checkbox" id="risk2sys8" name="risk2sys8" value="pests">
+      <label for="risk2sys8"> Pests</label><br>
+      <input type="checkbox" id="risk2sys9" name="risk2sys9" value="na">
+      <label for="risk2sys9"> n/a</label><br>
+    </t>
+    <f href="#">Land Use System:</f>
+    <t href="#">
+      <input type="checkbox" id="land" name="land" value="all">
+      <label for="land"> All</label><br>
+      <input type="checkbox" id="land1" name="land1" value="Field">
+      <label for="land1"> Field Cultivation</label><br>
+      <input type="checkbox" id="land2" name="land2" value="Individual">
+      <label for="land2"> Individual Plots</label><br>
+      <input type="checkbox" id="land3" name="land3" value="Family">
+      <label for="land3"> Family Plots</label><br>
+      <input type="checkbox" id="land4" name="land4" value="Orchard">
+      <label for="land4"> Orchard</label><br>
+      <input type="checkbox" id="land5" name="land5" value="Terraces">
+      <label for="land5"> Terraces</label><br>
+      <input type="checkbox" id="land6" name="land6" value="Rows">
+      <label for="land6"> Rows</label><br>
+      <input type="checkbox" id="land7" name="land7" value="RaisedBeds">
+      <label for="land7"> Raised Beds</label><br>
+      <input type="checkbox" id="land8" name="land8" value="FloatingBeds">
+      <label for="land8"> Floating Beds</label><br>
+      <input type="checkbox" id="land8" name="land8" value="Canals">
+      <label for="land8"> Canals</label><br>
+      <input type="checkbox" id="land8" name="land8" value="Walls">
+      <label for="land8"> Walls</label><br>
+      <input type="checkbox" id="land8" name="land8" value="na">
+      <label for="land8"> n/a</label><br>
+    </t>
+    <f href="#">Urban Integration:</f>
+    <t href="#">
+      <input type="checkbox" id="int" name="int" value="all">
+      <label for="int"> All</label><br>
+      <input type="checkbox" id="int1" name="int1" value="Natural">
+      <label for="int1"> Integrated with Natural System</label><br>
+      <input type="checkbox" id="int2" name="int2" value="Squeeze">
+      <label for="int2"> Squeeze in Urban Gaps</label><br>
+      <input type="checkbox" id="int3" name="int3" value="Domestic">
+      <label for="int3"> Accompany Domestic Lots</label><br>
+      <input type="checkbox" id="int4" name="int4" value="Discrete">
+      <label for="int4"> Discrete Zone</label><br>
+      <input type="checkbox" id="int8" name="int8" value="na">
+      <label for="int8"> n/a</label><br>
+    </t>
+    <a href="#">Layers</a>
+    <a href="#"></a>
+  </div>
+
+  <!-- Page content -->
+  <div class="main">
+  </div>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Display a map on a webpage</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.3.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.0/mapbox-gl.js"></script>
+    <link href='./style.css'rel='stylesheet'>
+  </head>
+
+  <body>
+    <div id="map"></div>
+    <script>
+
+
+
+    // Mapbox access token and style ID
+    mapboxgl.accessToken = 'pk.eyJ1Ijoic2phZnJvdWRpIiwiYSI6ImNra2VibWp0azB5azUyb256dHlpaHRtNDQifQ.LBpfWLTC701RZ51wpR_E9A';
+    var bounds = [[-180, -50],[180, 80]];
+    var map = new mapboxgl.Map({
+      container: 'map', // container id
+      style: 'mapbox://styles/sjafroudi/ckkebwmd4094i17rvfpitb0pz', // style URL
+      center: [0,0], // starting position [lng, lat] 30.3609, 59.9311
+      zoom: 0.2, // starting zoom
+      maxBounds: bounds
+    });
+
+    map.on('style.load', function() {
+            // Always add the same custom soruces and layers after a style change
+
+            // DATA: Site boundaries (i.e., Central Experimental Farm, Five Acre Farm)
+            map.addSource('data', {
+                type: 'geojson',
+                data: 'https://raw.githubusercontent.com/sjafroudi/UAH/main/siteBoundaries.geojson'
+              });
+              // fill
+              map.addLayer({
+                "id":"site",
+                'type': 'circle',
+                'source': 'data',
+                'paint': {
+                  'circle-radius': 3,
+                  'circle-color': 'white',
+                  'circle-stroke-color': 'black',
+                  'circle-stroke-width': 0.3
+
+                },
+                "filter": ["==", "$type", "Point"]
+              });
+
+              map.addLayer({
+                'id': 'Boundary',
+                'type': 'line',
+                'source': 'data',
+                'paint': {
+                  'line-color': 'red',
+                  'line-width': 1
+                },
+                "filter": ["==", "$type", "Polygon"]
+              });
+
+
+
+
+            });
+
+        var layerList = document.getElementById('menu');
+        var inputs = layerList.getElementsByTagName('input');
+
+        function switchLayer(layer) {
+            var layerId = layer.target.id;
+            map.setStyle('mapbox://styles/' + layerId);
+        }
+
+        for (var i = 0; i < inputs.length; i++) {
+            inputs[i].onclick = switchLayer;
+
+        }
+
+        // Create popup variable
+        var popup = new mapboxgl.Popup({
+          closeButton: true,
+          closeOnClick: true
+        });
+
+        map.on('click', 'site', function(e) {
+          popup.setLngLat(e.features[0].geometry.coordinates);
+          popup.setHTML('<div class="popup"><p class="twentysixpoint"><t href="#">' + e.features[0].properties.site + '</t><br>' +
+            "Location: " + e.features[0].properties.location + '<br>' +
+              "Size: " + e.features[0].properties.size + '<br>' +
+              "Heritage Status: " + e.features[0].properties.heritageStatus + '<br></p><span id="more"></div>' + '<button class="button button1" onclick="myFunction()" id="myBtn"><t href="#">' + "View full fact sheet" + '</t></button>');
+          popup.addTo(map);
+        });
+
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read less";
+            moreText.style.display = "inline";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "View full fact sheet";
+            moreText.style.display = "none";
+          }
+        }
+
+        map.on('mouseenter', 'site', function () {
+          map.getCanvas().style.cursor = 'pointer';
+          });
+
+        map.on('mouseleave', 'site', function() {
+          map.getCanvas().style.cursor = '';
+        });
+
+
+        map.setLayerZoomRange('site', 0, 24);
+
+
+    </script>
+
+  </body>
+  </html>
