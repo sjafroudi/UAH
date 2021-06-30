@@ -1,0 +1,829 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "properties": {
+      "site":"Central Experimental Farm",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "integration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "uaType":"",
+      "generalizedRisks":"",
+      "risksToSystem":"",
+      "landUseSystem":"",
+      "urbanIntegration":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -75.709121,
+        45.387436
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"Dowling School Victory Garden",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "integration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "uaType":"",
+      "generalizedRisks":"",
+      "risksToSystem":"",
+      "landUseSystem":"",
+      "urbanIntegration":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -93.20717096328735,
+        44.93244316689988
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"Fenway Victory Gardens",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "integration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "uaType":"",
+      "generalizedRisks":"",
+      "risksToSystem":"",
+      "landUseSystem":"",
+      "urbanIntegration":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -71.0929799079895,
+        42.34583405051044
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"Five Acre Farm",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "integration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "uaType":"",
+      "generalizedRisks":"",
+      "risksToSystem":"",
+      "landUseSystem":"",
+      "urbanIntegration":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -123.945692,
+        49.142222
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"Glamorgan Farm",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "integration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "uaType":"",
+      "generalizedRisks":"",
+      "risksToSystem":"",
+      "landUseSystem":"",
+      "urbanIntegration":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+          -123.42618227005006,
+          48.65827195622189
+        ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"London Heritage Farm",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "integration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "uaType":"",
+      "generalizedRisks":"",
+      "risksToSystem":"",
+      "landUseSystem":"",
+      "urbanIntegration":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+          -123.15192103385925,
+          49.11459930134597
+        ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"Newman Farm",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "integration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "uaType":"",
+      "generalizedRisks":"",
+      "risksToSystem":"",
+      "landUseSystem":"",
+      "urbanIntegration":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -123.3957552909851,
+          48.60175757341526
+        ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"UBC Farm",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "integration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "uaType":"",
+      "generalizedRisks":"",
+      "risksToSystem":"",
+      "landUseSystem":"",
+      "urbanIntegration":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+				-123.23730111122131,
+          49.24969709206112
+			]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"Bude Farm",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "integration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "uaType":"",
+      "generalizedRisks":"",
+      "risksToSystem":"",
+      "landUseSystem":"",
+      "urbanIntegration":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+				6.128928,
+        46.224855
+			]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"Jucker Farm",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "integration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "uaType":"",
+      "generalizedRisks":"",
+      "risksToSystem":"",
+      "landUseSystem":"",
+      "urbanIntegration":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+          8.773031,
+          47.343785
+        ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"Can Masdeu",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "integration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "uaType":"",
+      "generalizedRisks":"",
+      "risksToSystem":"",
+      "landUseSystem":"",
+      "urbanIntegration":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+          2.157593,
+          41.445698
+        ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"Via Intergration",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "integration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "uaType":"",
+      "generalizedRisks":"",
+      "risksToSystem":"",
+      "landUseSystem":"",
+      "urbanIntegration":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+				6.121407,
+				50.72091
+			]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"Sant Erasmo",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "integration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "uaType":"",
+      "generalizedRisks":"",
+      "risksToSystem":"",
+      "landUseSystem":"",
+      "urbanIntegration":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+          12.41231918334961,
+          45.4571204521042
+        ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"La Huerta de Valencia",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "integration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "uaType":"",
+      "generalizedRisks":"",
+      "risksToSystem":"",
+      "landUseSystem":"",
+      "urbanIntegration":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+				-0.376282,
+        39.471715
+			]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"Knoblauchsland",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "integration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "uaType":"",
+      "generalizedRisks":"",
+      "risksToSystem":"",
+      "landUseSystem":"",
+      "urbanIntegration":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        11.031397,
+        49.505310,
+			]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"Chinampas",
+      "location":"Xochimilco, Mexico",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "integration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "uaType":"",
+      "generalizedRisks":"",
+      "risksToSystem":"",
+      "landUseSystem":"",
+      "urbanIntegration":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+				-99.079256,
+          19.271650
+			]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"El Pilar Forest Garden",
+      "location":"San Ignacio, Belize",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "integration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "uaType":"",
+      "generalizedRisks":"",
+      "risksToSystem":"",
+      "landUseSystem":"",
+      "urbanIntegration":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -89.155278,
+        17.256667
+			]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"Cairo Dairy Farming",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "integration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "uaType":"",
+      "generalizedRisks":"",
+      "risksToSystem":"",
+      "landUseSystem":"",
+      "urbanIntegration":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+				31.2357,
+				30.0444
+			]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"Kuttanad Below Sea Level Farming System",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "integration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "uaType":"",
+      "generalizedRisks":"",
+      "risksToSystem":"",
+      "landUseSystem":"",
+      "urbanIntegration":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+          76.4042,
+          9.3528
+        ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"Qanat-based Saffron Farming System",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "integration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "uaType":"",
+      "generalizedRisks":"",
+      "risksToSystem":"",
+      "landUseSystem":"",
+      "urbanIntegration":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+          58.7030,
+          34.3396
+        ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"Jos Plateau Vegetable Farm",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "integration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "uaType":"",
+      "generalizedRisks":"",
+      "risksToSystem":"",
+      "landUseSystem":"",
+      "urbanIntegration":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+				8.8583,
+				9.8965
+			]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"Little Akaki Valley Farming",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "integration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "uaType":"",
+      "generalizedRisks":"",
+      "risksToSystem":"",
+      "landUseSystem":"",
+      "urbanIntegration":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+				38.8329,
+				8.8351
+			]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"Oranjezicht City Farm",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "integration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "uaType":"",
+      "generalizedRisks":"",
+      "risksToSystem":"",
+      "landUseSystem":"",
+      "urbanIntegration":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+				18.414784,
+        -33.942149
+			]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"Philippi Horticultural Area",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "integration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "uaType":"",
+      "generalizedRisks":"",
+      "risksToSystem":"",
+      "landUseSystem":"",
+      "urbanIntegration":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+				18.549900,
+        -34.032888
+			]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "site":"Dachas",
+      "location":"",
+      "size":" (km²)",
+      "heritageStatus":"",
+      "geogAndClimate":"",
+      "integration":"",
+      "mainProducts":"",
+      "operationScale":"",
+      "cultivationSystem":"",
+      "history":"",
+      "heritage":"",
+      "stakeholders":"",
+      "customers":"",
+      "risks":"",
+      "incentives":"",
+      "uaType":"",
+      "generalizedRisks":"",
+      "risksToSystem":"",
+      "landUseSystem":"",
+      "urbanIntegration":"",
+      "sources":""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        30.3609,
+        59.9311
+      ]
+    }
+  }
+]
+}
