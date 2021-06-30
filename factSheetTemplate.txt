@@ -18,12 +18,30 @@
       "customers":"",           # insert from fact sheet
       "risks":"",               # insert from fact sheet
       "incentives":"",          # insert from fact sheet
-      "uaType":"",              # Community Garden, Commercial Farm, etc.
-      "generalizedRisks":"",    # Environmental, Economic, Land Use/Ownership
-      "risksToSystem":"",       # Flooding, Drought, Pollution, etc.
-      "landUseSystem":"",       # Field Cultivation, Individual Plots, etc.
+      "uaType1":"",             # Community Garden, Commercial Farm, etc.
+      "uaType2":"",
+      "uaType3":"",
+      "uaType4":"",
+      "uaType5":"",
+      "generalizedRisks1":"",   # Environmental, Economic, Land Use/Ownership
+      "generalizedRisks2":"",
+      "generalizedRisks3":"",
+      "risksToSystem1":"",      # Flooding, Drought, Pollution, etc.
+      "risksToSystem2":"",
+      "risksToSystem3":"",
+      "risksToSystem4":"",
+      "risksToSystem5":"",
+      "landUseSystem1":"",      # Field Cultivation, Individual Plots, etc.
+      "landUseSystem2":"",
+      "landUseSystem3":"",
+      "landUseSystem4":"",
+      "landUseSystem5":"",
       "urbanIntegration":"",    # Integration with Natural System, etc.
-      "sources":""
+      "sources1":"",            # MLA format citation
+      "sources2":"",
+      "sources3":"",
+      "sources4":"",
+      "sources5":""
     },
       "geometry":{
         "type":"Point",
