@@ -1,5 +1,6 @@
 body { margin: 0; padding: 0; }
 #map { position: absolute; top: 0; bottom: 0; width: 75%; z-index: 0 }
+#more {display: none;} /* read more button */
 
 #menu {
 position: absolute;
@@ -147,4 +148,19 @@ padding: 0px 10px;
 @media screen and (max-height: 450px) {
 .sidenav {padding-top: 15px;}
 .sidenav a {font-size: 18px;}
+}
+
+.twentysixpoint {
+  line-height: 14pt;
+}
+
+.popup {
+
+}
+
+.popup t {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 24pt;
 }
