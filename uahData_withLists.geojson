@@ -34,6 +34,39 @@
 			}
 		},
 		{
+	    "type": "Feature",
+	    "properties": {
+	      "site":"UBC Farm",
+	      "location":"Vancouver, British Columbia",
+	      "size":"0.24 (km²)",
+	      "heritageStatus":"n/a",
+	      "geogAndClimate":"Coastal hemlock forest, moderate oceanic climate",
+	      "integration":"The UBC Farm is located on the University of British Columbia Vancouver campus. It is surrounded by residential buildings and school buildings.",
+	      "mainProducts":"Fruits: Apple, blueberry, dandelion, strawberry, tomatillo; Vegetables: snap bean, dry bean, edamame bean, fava bean, romano bean, bulk beet, brunch beet, carrot, celery, celtuce, chard, collar, cucumber, fennel, flowers, squash, garlic, arugula, mizuna, mustard, scarlet frills, kale, kohlrabi, leek, lettuce, scallion, shallot, walla walla, pepper, potato, pumpkin, radicchio, radish, radish, salad mix, spinach, turnip, squash, zucchini; Herbs: basil, bay leaf, chive, cilantro, copper fennel, lavender, lovage, apple, peppermint, oregano, parsley, rosemary, sage, sorrel, winter, thyme",
+	      "operationScale":"The UBC Farm sells produce via markets, wholesale distribution, online seed sales, and community supported agriculture (CSA) which exchanges the purchase of land shares for a weekly box of produce throughout the growing season.",
+	      "cultivationSystem":"The UBC Farm is home to a small-scale, diversified, organic integrated production system. It contains cultivated annual crop fields, perennial hedgerows and orchards, pasture, teaching garden, and forest stands.",
+	      "history":"One continuous aspect of the UBC Farm from the distant past to the present is its utilization as a place of agriculture and education. This site is located on the traditional, ancestral, and unceded territory of the Musqueam people who inhabited the land for thousands of years prior to documented history and used it as a place of inter-generational learning and teaching of culture, history, and traditions. Situated on what is now recognized as the Point Grey Campus of the University of British Columbia, the peninsula was long purposed as a training site for Musqueam youth. While the forest was used for hunting and gathering, the land itself was used as a place for education and growth. The thematic aspect of education can be reflected in the current state of the UBC Farm which is used as a place for teaching, learning, and research.",
+	      "heritage":"The UBC Farm facilitates a sense of living heritage via the Indigenous Health Research and Education Garden (IHREG). The IHREG provides a context for the intergenerational education of intangible heritage features by connecting local Indigenous Elders and youth. Grounded in the principle that ‘food is medicine,’ the Medicine Collective, comprised of a group of Indigenous Elders and Knowledge-keepers who guide and direct activities at the IHREG, have grown the garden to include over 60 varieties of medicinal plants. The garden also engages with regional Aboriginal schools, communities, and organizations to facilitate the teaching and learning of traditional and non-traditional plant knowledge and a sense of living heritage.",
+	      "stakeholders":"UBC; Centre for Sustainable Food Systems; Faculty of Land and Food Systems; Friends of the Farm",
+	      "customers":"n/a",
+	      "risks":"At a macro-scale, the UBC Farm is responding to challenges faced by global food systems such as population growth, global food demand, climate change impacts, and the global degradation of land. At a local scale, the UBC Farm’s main threat include development pressures, an aging farmer demographic, a lack of land availability for young farmers to utilize, and a preservation of diverse ecosystems and knowledge.",
+	      "incentives":"Indigenous Food Sovereignty: with an end goal of food security, Indigenous food sovereignty is pertinent aspect of the IHREG. This aspect involves addressing the colonization of traditional regional food systems as well as land access and rights; Research: the UBC Farm provides open-access research and data including research data, operations/management data, and long term agroecological data gathered from research stations. The goal of making this data open-access is to encourage the dissemination of knowledge.",
+	      "uaType":"",
+	      "generalizedRisks":"",
+	      "risksToSystem":"",
+	      "landUseSystem":"",
+	      "urbanIntegration":"",
+	      "sources":["Indigenous Food Sovereignty. University of British Columbia, https://ubcfarm.ubc.ca/teach/casestudies/indigenous-food-sovereignty/. Accessed 22 July 2020.", "Norman, Emma Spenner. Point Grey Pre-University (pre-1890). University of British Columbia, http://www.library.ubc.ca/archives/u_fabric/pre1890.html. Accessed 22 July 2020.", "Xʷc̓ic̓əsəm Garden. University of British Columbia, https://lfs-iherg.sites.olt.ubc.ca/the-garden/. Accessed 22 July 2020."]
+	    },
+	    "geometry": {
+	      "type": "Point",
+	      "coordinates": [
+					-123.237301,
+	          49.249697
+				]
+	    }
+	  },
+		{
 			"type": "Feature",
 			"properties": {
 				"site": "Five Acre Farm",
@@ -166,6 +199,105 @@
 			}
 		},
 		{
+	    "type": "Feature",
+	    "properties": {
+	      "site":"Bude Farm",
+	      "location":"Petit-Saconnex, Geneva",
+	      "size":"0.015 (km²)",
+	      "heritageStatus":"n/a",
+	      "geogAndClimate":"Geneva is surrounded by 3 mountain chains and sits next to Lake Geneva, which is the source of the Rhone river.",
+	      "integration":"Bude Farm is a discrete site located in the city of Geneva.",
+	      "mainProducts":"Vegetables, Aromatics, Trees, Honey, Animals",
+	      "operationScale":"Today, the farm seeks to engage urban dwellers to agriculture through renting plots, offering classes, and selling merchandise. Bude Farms employs people to work in the garden and at the market (paying a weekly wage), accepts community volunteers, and facilitates supply chains with other local producers to sell a wider array of products at the market.",
+	      "cultivationSystem":"Bude Farms is an organic farm that uses permaculture principles. Because the site has such a small area, they employ “micro-market gardening” techniques, such as management of permanent planks, sowing and planting, composting, weed management with blackout tarps.",
+	      "history":"Bude Farm was initially the land of the Bude Estate in Petit-Saconnex; the Bude family operated a working farm on their land and were officially absorbed by the city of Geneva in the 1930s. The site was initially 55 hectares up through the 1950s as Geneva expanded.",
+	      "heritage":"The heritage value of Bude Farm derives mainly from its co-evolution with the surrounding city of Geneva. Despite urban transformations that took place in the 1960s and demolished much of the original farm, certain elements include the main vegetable garden from the 19th century still remains in use.",
+	      "stakeholders":"n/a",
+	      "customers":"Local markets",
+	      "risks":"Geneva has grown and, specifically during the 1950s and 1960s, has built more housing complexes. During this period, the Bude family sold their estate to the governance of Geneva and many of the buildings were torn down to build new housing. Even though this is in the past, the pressure for denser housing still exists. Additionally, Bude Farms has transitioned from selfsufficient farming to relying trade and sales due to the loss of productive buildings on the site. Bude Farms can no longer operate animal husbandry and other activities that required those buildings and now focuses on vegetable production.",
+	      "incentives":"The canton of Geneva now owns the land that the farm operates on and uses this site as an “urban farm model” for new developments.",
+	      "uaType":"",
+	      "generalizedRisks":"",
+	      "risksToSystem":"",
+	      "landUseSystem":"",
+	      "urbanIntegration":"",
+	      "sources":["Ferme de Budé: Urban and Organic Farming in Geneva. Cuisine Helvetica, https://cuisinehelvetica.com/2016/08/25/ferme-de-bude-urban-and-organic-farming-ingeneva/. Accessed 22 July 2020.", "History of the Budé Farm. La Ferme de Bude, https://www.ferme-de-bude.ch/la-ferme-de-bude. Accessed 22 July 2020."]
+	    },
+	    "geometry": {
+	      "type": "Point",
+	      "coordinates": [
+					6.128928,
+	        46.224855
+				]
+	    }
+	  },
+		{
+	    "type": "Feature",
+	    "properties": {
+	      "site":"Jucker Farm",
+	      "location":"Seegraben, Zurich",
+	      "size":"n/a",
+	      "heritageStatus":"n/a",
+	      "geogAndClimate":"The Juckerfarm is based in the canton of Zurich. Zurich is considered to be a temperate climatic zone.",
+	      "integration":"The Jucker Farm had three locations throughout the city of Zurich.",
+	      "mainProducts":"Pumpkins, apples, pears, strawberries, raspberries, cherries, blueberries, asparagus, garlic, artichokes, kale, brussels sprouts, lettuce, rhubarb; Processed products: breads, bakery items, wine, beer",
+	      "operationScale":"In addition to agricultural production, Jucker Farm is a considerable site for agrotourism. Jucker Farm employes roughly 150 people throughout all of it’s operations (including the three farms, farm shops, and restaurants).",
+	      "cultivationSystem":"The farm is not certified organic, but applies many of the underlying principles. Grain is ground in their traditional stone mill, and then used for breads to sell in their restaurants and stores. They produce their own wine and similar alcoholic drinks.",
+	      "history":"Jucker Farms operates three farms and the Jucker family has owned them for over a century.",
+	      "heritage":"The heritage value of the Jucker Farm is mainly attributed to it’s impressive evolution with the urban infrastructure of Zurich.",
+	      "stakeholders":"n/a",
+	      "customers":"Tourists and local shoppers.",
+	      "risks":"n/a",
+	      "incentives":"Jucker Farms processes their food themselves and ensures a closed cycle to eliminate all food waste.",
+	      "uaType":"",
+	      "generalizedRisks":"",
+	      "risksToSystem":"",
+	      "landUseSystem":"",
+	      "urbanIntegration":"",
+	      "sources":["Jucker Farm. Jucker Farm AG, https://www.juckerfarm.ch/. Accessed July 22 2020.", "Jucker Farm. Wikipedia, https://en.wikipedia.org/wiki/Jucker_Farm. Accessed July 22 2020."]
+	    },
+	    "geometry": {
+	      "type": "Point",
+	      "coordinates": [
+	          8.773031,
+	          47.343785
+	        ]
+	    }
+	  },
+		{
+	    "type": "Feature",
+	    "properties": {
+	      "site":"Can Masdeu",
+	      "location":"Collserola Natural Park, Barcelona",
+	      "size":"0.35 (km²)",
+	      "heritageStatus":"n/a",
+	      "geogAndClimate":"Serra de Collserola is a mountain range between two rivers (Besos and Llobregat). Can Masdeu is located in valleys of those mountains.",
+	      "integration":"Can Masdeu is a discrete site located in Collserola Park on the outskirts of Barcelona.",
+	      "mainProducts":"Seasonal vegetables, potatoes, garlic, onions, tomatoes",
+	      "operationScale":"Farmers use an organic growing system in 35 plots, a community garden, and orchards.",
+	      "cultivationSystem":"Irrigation largely relies on rain water; the site employs water mines to gather water, ponds to hold excess water, and a tank to divert water when ponds are full. A water distribution system has been constructed to deliver water to all of the plots. Additionally, there is one well to access groundwater during the dry summer. Compost is made on site from plant waste, and manure is gathered from goats, sheep, and horses.",
+	      "history":"Over time, the mountain range has been used for pastures, woods, vineyards, orchards, houses. In the 20th century, the land was over-used and and over-worked, leaving the hills degraded. This land was used to house a leper colony. When the hospital was vacated, the land was left empty and squatters moved in and have taken control of the area with the aim of revitalizing the agriculture that was once present in this area.",
+	      "heritage":"The current efforts have revitalized the land to be used for cultivation again.",
+	      "stakeholders":"Hospital de Saint Pau",
+	      "customers":"Community members and plot owners",
+	      "risks":"Because this land is squatted upon illegally, there have been multiple eviction attempts. While the situation has cooled down and there have not been concrete steps to eviction since 2002, the threat still looms over those living and working the land.",
+	      "incentives":"Can Masdeu partners with other organizations and groups in Nou Barris, the neighboring community, and participates in events to bring people together. While there is no specific economic incentive in place to ensure that Can Masdeu continues, the government has sided with Can Masdeu during eviction hearings and has designated the surrounding land as a Natural Park. Can Masdeu receives economic support from many outside organizations.",
+	      "uaType":"",
+	      "generalizedRisks":"",
+	      "risksToSystem":"",
+	      "landUseSystem":"",
+	      "urbanIntegration":"",
+	      "sources":["Can Masdeu. Wikipedia, https://en.wikipedia.org/wiki/Can_Masdeu. Accessed 22 July 2020. Community Gardens. Vall De Can Masdeu, https://www.canmasdeu.net/horts-comunitaris/. Accessed 22 July 2020."]
+	    },
+	    "geometry": {
+	      "type": "Point",
+	      "coordinates": [
+	          2.157593,
+	          41.445698
+	        ]
+	    }
+	  },
+		{
 			"type": "Feature",
 			"properties": {
 				"site": "La Huerta de Valencia",
@@ -264,6 +396,171 @@
 				]
 			}
 		},
+		{
+	    "type": "Feature",
+	    "properties": {
+	      "site":"Cairo Dairy Farming",
+	      "location":"Cairo, Egypt",
+	      "size":"n/a",
+	      "heritageStatus":"n/a",
+	      "geogAndClimate":"The land in Egypt is largely desert, with the exception of the land along the Nile River. The Nile River runs through the country and serves as a life-source. The arable land, due to the flooding of the Nile River, is fertile and rich with nutrients.",
+	      "integration":"Due to the importance of the Nile as a cultural and environmental resource, most settlements in Egypt flank the Nile Delta and the Nile riverbanks. Urban agriculture has concentrated along the entrance to the Delta.",
+	      "mainProducts":"Dairy (cow and buffalo), processed dairy (milk, butter, cheese, yogurt), Egyptian clover, cereals (wheat and maize), vegetables and green fodder",
+	      "operationScale":"There are two main types of family urban farms in Cairo: integrated farms that practice polyculture and animal husbandry and landless farms devoted to milk production. Farms are primarily operated for family consumption, but surpluses are sold in very short supply chains. In Cairo, the sale of processed products is not very common, so the dairy is often sold as milk, and occasionally as cheese, butter, or yogurt.",
+	      "cultivationSystem":"Family farms are often located on small plots about 2 feddans (.84 hectares) in area. Water management was previously centered on public irrigation channels and the main drainage network. Farmers were able to access water from the Nile for free, as Islam dictates free water. Now, due to a lack of funds for maintaining public irrigation channels, farmers use shared pumps to raise water from irrigation canals or wells. The greater focus is on water drainage due to the rise in the water table; water drains through a series of channels to prevent the plots from becoming saturated salt as the water evaporates but leaves behind salt.",
+	      "history":"Egyptian agriculture dates back several millennia and is concentrated along the Nile River. Cows have held a sacred position in Egyptian culture as a symbol of fertility and maternity as far back at the 5th millennia BCE. Buffaloes were first introduced in Egypt in the 7th century. Because the Nile River has been the locus for human settlement and agricultural production, agriculture has been conducted in urban areas. Since the 1950s, there has been a greater push to extend agriculture into the desert to allow for more dense populations in urban areas.",
+	      "heritage":"Cultural associations with cows and buffaloes have been pervasive throughout Egyptian history. Cheeses from cows and buffaloes have been documented since 2000 BCE and remain an important staple of the Egyptian diet. Intangible heritage focuses on specific Egyptian milk and cheese dishes that have been created over centuries, such as mish. Additional intangible heritage is the agricultural knowledge that is passed down orally over generations, from fathers to sons. Domestic knowledge on the processing of animal production and knowledge on the care taking of animals is passed down from mothers to daughters.",
+	      "stakeholders":"Urban agriculture is often conducted at a family or extended family scale. “Family councils” make decisions regarding the strategy of the farms of the various extensions of the family; therefore, decisions are interdependent and part of large networks.",
+	      "customers":"In urban Cairo, farmers sell their milk directly to milk shops or consumers. In peri-urban areas, farmers sell their milk to traders, and traders sell the milk to milk shops in urban areas. Excess milk remaining at milk shops are sold to milk processors.",
+	      "risks":"Urbanization poses a risk to arable land, as more people move to Cairo to occupy the same footprint of land. Many farmers rent their land from public and non-profit owners for one-year lease terms, which yields uncertain futures for farmers. Pollution and urbanization both block irrigation and drainage channels; as the water table rises, the soil becomes saturated with saltwater and cannot drain, leading to salinization of the soil.",
+	      "incentives":"National policy has focused on extending agricultural land into the desert to improve the productivity of existing farms and decrease international dependence for food products.",
+	      "uaType":"",
+	      "generalizedRisks":"",
+	      "risksToSystem":"",
+	      "landUseSystem":"",
+	      "urbanIntegration":"",
+	      "sources":["Daburon A., Alary V., Ali A., El-Srogi M., Tourrand JF. (2018) Urban and Peri-Urban Agriculture, the Dairy Farms of Cairo, Egypt. In: Bosc PM., Sourisseau JM., Bonnal P., Gasselin P., Valette É., Bélières JF. (eds) Diversity of Family Farming Around the World. Springer, Dordrecht. https://doi.org/10.1007/978-94-024-1617-6_4", "Daburon A., Alary V., Ali A., El Sorougy M., Tourrand J.F. (2017) Urban Farms Under Pressure: Cairo’s Dairy Producers, Egypt. In: Soulard CT., Perrin C., Valette E. (eds) Toward Sustainable Relations Between Agriculture and the City. Urban Agriculture. Springer, Cham. https://doi.org/10.1007/978-3-319-71037-2_5", "Galal, Shazli & Alary, Veronique & Radwan, Mohamed & Abdelghany, S. & Corniaux, Christian. (2014). Urban and peri-urban milk development in Greater Cairo (Egypt) : What future for the traditional milk sector ?."]
+	    },
+	    "geometry": {
+	      "type": "Point",
+	      "coordinates": [
+					31.2357,
+					30.0444
+				]
+	    }
+	  },
+		{
+	    "type": "Feature",
+	    "properties": {
+	      "site":"Qanat-based Saffron Farming System",
+	      "location":"Gonabad, Iran",
+	      "size":"5788.79 (km²)",
+	      "heritageStatus":"UN FAO GIAHS Pending",
+	      "geogAndClimate":"Gonabad is located on the edge of a desert area and thus experiences an arid and semi-arid climate. A majority of the areas are plainlands.",
+	      "integration":"A decent proportion of residential areas in Gonabad are farmlands.",
+	      "mainProducts":"Saffron, cumin, wheat, barley, grape and almond; local textiles such as carpet and silk textile weaving; pottery",
+	      "operationScale":"Saffron cultivation in Gonabad is primarily a locally oriented system of traditional farming. Cultivation is carried out for the livelihood of families, so industrial farming is not characteristic of this landscape.",
+	      "cultivationSystem":"Qanats are the main source of water; an underground channel which transports water from an aquifer to a water well for drinking or surface for irrigation. There are 599 Qanats, 106 springs, and 294 deep and semi-deep wells supplementing water for agricultural and human use in this region.",
+	      "history":"Compared to cereals, saffron cultivation is not water intensive. This resulted in more land being dedicated to farming saffron over time in the Khorasan province. Saffron cultivation was historically broader and less spatially concentrated. Today, 95% of saffron production takes place in the Khorasan province in northeastern Iran.",
+	      "heritage":"Tangible heritage: The Qanat system which supplements the region with water has a history stemming back to the Aryan era, when many of the qanats were built. The oldest Qanat is the Qasabeh Qanat of Gonabad which is 33,133 meters long and dates back 3000 years. Intangible heritage: Qanats were used during the Achaemedian era (c. 625 BC) in Iran. The blueprint for the water management system was exported to other regions including Egypt, North Africa, Cyprus,and Sicily. During the Parthian period (205-2121 BC), many qanats were purposefully destroyed in an effort to resist Roman occupation. During the early Islamic period, Iranian scientists wrote about the principles of gravity and flow, illustrating that they had knowledge of underground waters. Vertical wells were slowly replaced by horizontal wells. Saffron is an important part of Iranian culture. Saffron farms were originally created in the ancient Median state of Alvand and the Zagros mountain range 4000 years ago. Iran has remained the largest producer of Saffron ever since. Production methods and techniques have been passed on through generations.",
+	      "stakeholders":"Saffron production is important in keeping the local economy afloat. The trading of Saffron flowers and roots at Gonabad’s market constitutes a significant amount of economic activity and plays an important role in the presence of local festivities in the region.",
+	      "customers":"n/a",
+	      "risks":"Drought, climate change, sanctions",
+	      "incentives":"Saffron cultivation has created local job opportunities which in turn has reduced emigration. The qanat water system has created a sustainable and efficient water consumption system and played a role in creating sustainable livelihoods. From a tourism point of view, the Gonabad region’s rich history of Saffron production is very valuable. Other landmarks such as the Saffron museum of Seno Village play a role in the touristic value as well. Farmers use Saffron leaves to feed livestock, adding to its economic importance. Saffron is a water efficient crop.",
+	      "uaType":"",
+	      "generalizedRisks":"",
+	      "risksToSystem":"",
+	      "landUseSystem":"",
+	      "urbanIntegration":"",
+	      "sources":["“A Proposal for Designation as a GIAHS Qanat - Based Saffron Farming System in Gonabad.” UN FAO GIAHS, Dec. 2018, www.fao.org/3/CA3438EN/ca3438en.pdf.", "“Iran’s Saffron Farming System Wins FAO World Heritage Status.” Tehran Times, 24 Dec. 2018, www.tehrantimes.com/news/431044/Iran-s-saffron-farming-system-wins-FAOworld-heritage-status."]
+	    },
+	    "geometry": {
+	      "type": "Point",
+	      "coordinates": [
+	          58.7030,
+	          34.3396
+	        ]
+	    }
+	  },
+		{
+	    "type": "Feature",
+	    "properties": {
+	      "site":"Jos Plateau Vegetable Farm",
+	      "location":"Jos Plateau, Nigeria",
+	      "size":"320 (km²)",
+	      "heritageStatus":"n/a",
+	      "geogAndClimate":"Jos Plateau is located in Nigeria’s Middle Belt and has a temperate climate that is well suited for the production of fruits and vegetables. The plateau is bounded by cliff faces and is made of three types of granite, one of which includes tin, which led to massive mining in the early 20th century from European powers.",
+	      "integration":"Tin mining defined the colonial economy in Nigeria in the early 20th century. Mines were placed throughout the urban area of Jos. After the shuttering of the mines, urban agriculture has taken over the former mines and is integrated in the same manner as the mines. Furthermore, even before the closing of the mines, urban agriculture existed on a smaller scale elsewhere in the city during the period of colonialism. Agriculture has started spreading out from the city as well, so that farmers can access more land.",
+	      "mainProducts":"tomatoes, greens (cabbage, lettuce, spinach), vegetables (celery, onions, green beans, peppers), roots and tubers",
+	      "operationScale":"The agricultural production is focused on supplying markets in Southern Nigeria, as well as Niger and Chad. There is a complex supply chain, involving a number of intermediaries, that move the produce to market.",
+	      "cultivationSystem":"Irrigation is conducted through small petrol-powered pumps that have become increasingly prevalent. Before the pumps, farmers relied on knowledge passed from rural farmers and hand operated shaduf to access water. After the tin mines closed, many areas of the mines were converted to ponds to hold water for the agricultural fields that evolved in other areas of the mine compounds. Now, the small pumps have allowed more and more land to be used for farming. Within the fields themselves, water flows through communal channels and then is drawn to flood individual beds. The fields are farmed year-round, without any fallow periods, which takes a toll on the soil quality. Fields employ intercropping to grow multiple species of vegetables in the same plot; this reduces the risk of disease or pests wiping out entire swaths of crops.",
+	      "history":"In the early 20th century, there was European presence in the region due to extensive tin mining. During this time, urban agriculture began. In the 1970s, urban agriculture took up a greater market presence as tin production declined. This period, also characterized by an oil boom, freed up the land from tin production and led to a reclamation of the mines to be used for agriculture. Market gardening provided food for the expanding urban population. Following the crash of oil production and a national import ban on food products, the urban agriculture sector continued to expand.",
+	      "heritage":"The growth of urban agriculture in the late 21st century has led to an economic growth of the people of the area. Nigeria, with its oil deposits, should be a wealthy Sub-Saharan country, but mismanagement, corruption, and military rule have wrought havoc on the country and the people. The expansion of vegetable production in Jos has been viewed as a remarkable achievement. The tangible heritage is the land conversion from tin mines to ponds that now hold water for farmers, as well as other areas of the mine for hosting fields of agricultural production.",
+	      "stakeholders":"Farmers, traders, and other intermediaries form a complex network. Agriculture has attracted Fulani migrants to move to the city for work; this immigration stokes the flames of racial and ethnic tension that has already existed among the Berom and earlier immigrants, Hausa.",
+	      "customers":"Vegetables are sold to markets in South Nigeria, Niger, and Chad.",
+	      "risks":"Traders, often behaving as a cartels, that move the produce to different markets in the region have engaged in exploitative behavior toward the urban farmers. Due to the year-round production cycle, farmers deplete the soil without affordable access to fertilizer. Pests and diseases are a growing problem. Additionally, many farmers are not educated on farming practices or on environmental risks.",
+	      "incentives":"The Plateau Agriculture Development Programme works to provide affordable fertilizer to farmers.",
+	      "uaType":"",
+	      "generalizedRisks":"",
+	      "risksToSystem":"",
+	      "landUseSystem":"",
+	      "urbanIntegration":"",
+	      "sources":"Porter, Gina, et al. “Markets, Ethnicity and Environment in a Vulnerable Landscape: The Case of Small-Scale Vegetable Production on the Jos Plateau, Nigeria, 1991-2001.” The Geographical Journal, vol. 169, no. 4, 2003, pp. 370–381. JSTOR, www.jstor.org/stable/3451575. Accessed 22 July 2020."
+	    },
+	    "geometry": {
+	      "type": "Point",
+	      "coordinates": [
+					8.8583,
+					9.8965
+				]
+	    }
+	  },
+		{
+	    "type": "Feature",
+	    "properties": {
+	      "site":"Little Akaki Valley Farming",
+	      "location":"Addis Ababa, Ethiopia",
+	      "size":"0.32 (km²)",
+	      "heritageStatus":"n/a",
+	      "geogAndClimate":"Addis Ababa lies at the center of Ethiopia. The northern and central parts of the city are defined by rugged topography, while the southern portion is undulating. Rivers run through the city, creating valleys that are not suitable for construction, but allow for urban agriculture. The climate is warm year-round in Addis Ababa, and is labeled as “subtropical highland.” The area experiences a rainy season that coincides with summer, but drastically reduces the temperature, providing winter-like temperatures.",
+	      "integration":"The municipality of Addis Ababa owns all land that is not strictly privately owned. Valleys along rivers are not suitable for private construction, so much of this land has been converted to urban farming. The most extensively used river valley for urban agriculture is Little Akaki. The Mekanisa-Gofa-Lafto farm is located along the Little Akaki River and is one of the oldest operating co-operative farms. These farms have not spread beyond the valley, but rather take up unoccupiable urban land.",
+	      "mainProducts":"Cows, chickens, vegetables (swiss chard, kale, cauliflower, lettuce, leek, cabbage), legumes, roots and tubers, eucalyptus, medicinal herbs",
+	      "operationScale":"There are around 250 farmers that operate plots in the Little Akaki River valleys. About 80% of the crops produces are sold at market, and crop sales account for an average of 60% of income for families.",
+	      "cultivationSystem":"Plot sizes vary from less than 500 m2 to over 3,000 m2. All plots employ furrow irrigation. Farmers cannot afford pumps to carry water through their fields, so they use basin irrigation, which consists of dams built along the Little Akaki River that then transfer the water to the fields through channels. Each farmer opens a hole in the channel to allow water into their fields. The water is able to flow through the fields due to the pull of gravity. Up-river plots are able to receive water more than down-river plots. The plots are farmed 9 months of the year, with a break during the rainy season. This constant farming depletes the nutrients of the soil, so farmers use inorganic fertilizer purchased from the Ministry of Agriculture.",
+	      "history":"Urban agriculture has shaped Addis Ababa since its creation at the end of the 19th century. Addis Ababa was established by Emperor Melenik at the geographical center of Ethiopia. The city developed along three nodes: a political center, a church, and a market. The growth of Addis Ababa has been characterized by periods of sporadic growth; since its founding in the late 19th century, the city has grown to 540 square kilometers. When Italy controlled the country in the 1930s, the ruling Italians established vegetable production and hired many locals to work the land. After Italy left Ethiopia in 1941, the land transferred to those migrants who had been working it for the Italians.",
+	      "heritage":"Many of the city’s earliest residents engaged in urban agriculture, and urban agriculture has continued since. The intangible heritage of the knowledge and farming techniques is similar to that of the farming practices in rural areas of Ethiopia because many of the urban farmers are descendants of the Gurage rural farmers. Micro-dams for irrigation in the Little Akaki River are items of tangible heritage: some were constructed as long ago as the Italian occupation in the 1930s. These micro-dams, and the corresponding basin irrigation, are a method unique to Addis Ababa and the Little Akaki River.",
+	      "stakeholders":"Most of the farmers, about 88%, who work the land at the Mekanisa-Gofa-Lafto farm are of Gurage descent, and most have immigrated to the area over the past few generations. Many of the farmers also employ day laborers who work in the fields. The Ethiopian government is engaged through both the Ministry of Agriculture that sells fertilizer to farmers and at a municipal level by allowing farmers to work on the public land. Additionally, the government recently established the Addis Ababa Urban Agriculture Office, which has the goal of supporting urban and peri-urban agriculture.",
+	      "customers":"Farmers sell their produce to the Wholesale Vegetable Market in Mercato (Atakilt Berenda), which is run by the Urban Producers Association.",
+	      "risks":"Farmers cannot access credit from formal financial institutions because the farmers cannot use their land as collateral. Instead, farmers obtain credit from wholesalers in the form of advanced payment. Additionally, farmers face the following risks: fear of losing their land, high prices for seeds and fertilizer, shortage of irrigation water, contamination of irrigation water, inadequate land for cultivation, lack of adequate equipment, pests and diseases, pollution, and theft.",
+	      "incentives":"The Addis Ababa Urban Agriculture Office has been established to assist farmers, but farmers have not seen much benefit. Additionally, Addis Ababa has signed onto the declaration “Feeding Cities of Northern Africa” that promotes urban agriculture.",
+	      "uaType":"",
+	      "generalizedRisks":"",
+	      "risksToSystem":"",
+	      "landUseSystem":"",
+	      "urbanIntegration":"",
+	      "sources":["Kebbede, Girma. “Farmers in the City: The Case of Addis Ababa, Ethiopia.” Academia, 2011. Mount Holyoke College, www.mtholyoke.edu/sites/default/files/acad/geography/docs/FarmersinAddisAbaba.pdf.", "Gebremichael, D., Gebremichael, A.T., Worku, A., Abshare, M.W., Habtemariam, Y.M., Balcha, G. and Gebremichael, D. (2014). Building Urban Resilience: Assessing Urban and Periurban Agriculture in Addis Ababa, Ethiopia. [Padgham, J. and J. Jabbour (eds.)]. United Nations Environment Programme (UNEP), Nairobi, Kenya."]
+	    },
+	    "geometry": {
+	      "type": "Point",
+	      "coordinates": [
+					38.8329,
+					8.8351
+				]
+	    }
+	  },
+		{
+	    "type": "Feature",
+	    "properties": {
+	      "site":"Oranjezicht City Farm",
+	      "location":"Cape Town, South Africa",
+	      "size":"15 x 6m² lots",
+	      "heritageStatus":"Provincial Historic Site",
+	      "geogAndClimate":"The OZCF is located in the foothills of Table Mountain in Cape Town. This region specifically is one of the most biodiverse in the world–the Table Valley in Cape Town has an estimated 2200 species of plants, which is more species than the entirety of the United Kingdom. It has a warm Mediterranean climate which includes mild and moderately wet winters with dry and warm summers.",
+	      "integration":"The OZCF is located in an affluent suburb in Cape Town.",
+	      "mainProducts":"vegetables, fruit, herbs, seeds, seedlings, plants, fertilisers",
+	      "operationScale":"Produce grown at the farm is sold at the OZCF Market on a weekly basis.",
+	      "cultivationSystem":"n/a",
+	      "history":"The OZCF has a known history which dates back to 1709. The farm was occupied by the Van Breda family for 7 generations who continuously grew their land holdings and operation until their estate occupied the largest part of the Table Valley. During the peak period of its production, the Van Breda family had employed 40 slaves who were instrumental in the prosperity of the farm which fostered most of its wealth from the production of fruit and vegetables. Water supplied from the springs of Table mountain, which had been used by the indigenous San and Khoekhoe peoples prior to European colonization, allowed for the OZCF to thrive. As the water was diverted to support the growing city the farm witnessed a decline in productivity. In 1901, the land was sold to a syndicate which established a suburb on the former farmland. The Oranjezicht farmstead remained intact until 1955 when it was abolished and replaced with a bowling green. Eventually, the bowling green was neglected and the area which was home to the former farmstead saw an accumulation of rubble as well as an increase in drug related activities. In 2009, the Oranjezicht-Higgovale Neighborhood Watch started organizing clean-ups in order to improve the welfare of the site. In 2012, the bowling green was transformed into the Oranjezicht City Farm.",
+	      "heritage":"Tangible heritage: The OZCF is situated where the Oranjezicht farmstead once stood. It currently constitutes a portion of the original farmland. Having gone through a period over a century long where it no longer pertained to agriculture, the land has now returned to a state where it fosters farming activities.",
+	      "stakeholders":"South Africa Urban Food & Farming Trust (SAUFF): The OZCF is part of the SAUFF, a nonprofit public benefit organization which supports collaborative urban agriculture initiatives, social farms and markets, in order to strengthen community social cohesion, improve food security, conserve natural urban ecosystems, and strengthen collective agency within communities. Friends of the Farm: A club centered around the OZCF and other urban agriculture initiatives. Friends of the Farm conduct activities related to raising awareness, fund-raising, and educational projects.",
+	      "customers":"Produce from the OZCF is sold at a weekly market in Cape Town.",
+	      "risks":"No risks mentioned specific to this site.",
+	      "incentives":"Bokashi: The OZCF has a drop-off station for household food waste which then undergoes a process known as bokashi composting where food waste is fermented into a safe soil-enriching builder and used to grow fresh vegetables.",
+	      "uaType":"",
+	      "generalizedRisks":"",
+	      "risksToSystem":"",
+	      "landUseSystem":"",
+	      "urbanIntegration":"",
+	      "sources":["“Bokashi Brigade.” Oranjezicht City Farm, 7 May 2020, ozcf.co.za/volunteer/bokashi-brigade.","“The Early Cape Slave Trade.” South African History Online, 27 Aug. 2019, www.sahistory.org.za/article/early-cape-slave-trade."]
+	    },
+	    "geometry": {
+	      "type": "Point",
+	      "coordinates": [
+					18.414784,
+	        -33.942149
+				]
+	    }
+	  },
 		{
 			"type": "Feature",
 			"properties": {
