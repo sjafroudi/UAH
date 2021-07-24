@@ -3,52 +3,95 @@ body { margin: 0; padding: 0; }
 #more {display: none;} /* read more button */
 
 #menu {
-position: absolute;
-background: rgba(255, 255, 255, 0.60);
-box-shadow: 0px 10px 20px -3px rgba(0, 0, 0, 0.15);
-margin: 6px 6px 16px 6px;
-display: flex;
-padding: 10px;
-font-size: 12px;
-font-family: Arial, Helvetica, sans-serif;
-z-index: 4;
-opacity: 0.9;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.60);
+  box-shadow: 0px 10px 20px -3px rgba(0, 0, 0, 0.15);
+  margin: 8px 6px 6px 6px;
+  display: flex;
+  padding: 10px;
+  text-align: center;
+  font-size: 13px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  z-index: 4;
+  opacity: 0.9;
+  border-radius: 3px;
 }
 
 
 #note {
-position: absolute;
-bottom: 50px; /* 10 */
-left: 10px; /* 350 */
-width: 170px;
-height: 20px;
-text-align: center;
-background-color: #fff;
-opacity: 0.7;
-border-radius: 3px;
-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
-padding-bottom: 20px;
-margin: 5px;
-z-index: 4;
+  position: absolute;
+  bottom: 35px; /* 10 */
+  left: 10px; /* 350 */
+  text-align: center;
+  background-color: #fff;
+  opacity: 0.7;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  font: 13px "Raleway", sans-serif;
+  font-weight: 200;
+  z-index: 4;
+  padding: 0px 10px 0px 10px;
+}
+
+
+.wrapper {
+  position: relative;
+  display: flex;
+  min-width: 100px;
+}
+
+.search {
+  border: 1px solid grey;
+  border-radius: 5px;
+  font: 13px "Raleway", sans-serif;
+  font-weight: 200;
+  height: 25px;
+  width: 79%;
+  padding: 2px 23px 2px 30px;
+  outline: 0;
+  background-color: #f5f5f5;
+}
+
+.search-icon {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 14px;
+}
+
+.clear-icon {
+  position: absolute;
+  top: 9px;
+  right: 8px;
+  width: 12px;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.search:hover, .search:focus {
+  border: 1px solid #009688;
+  background-color: white;
 }
 
 #close {
-    float:right;
-    display:inline-block;
-    padding:2px 5px;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
 }
 
 #sidenav {
-height: 100%; /* Full-height: remove this if you want "auto" height */
-width: 25%; /* Set the width of the sidebar */
-position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-z-index: 1; /* Stay on top */
-top: 0; /* Stay at the top */
-right: 0;
-background-color: #FFFFFF; /* Black */
-overflow-x: hidden; /* Disable horizontal scroll */
-padding-top: 10px;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 25%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #FFFFFF; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 10px;
+  font-size: 13px;
+  font-family: "Raleway", sans-serif;
 }
 
 #locationFS span {
@@ -57,46 +100,50 @@ padding-top: 10px;
 }
 
 .close {
-display: block;
-margin-right: 10px;
+  display: fixed;
+  margin-right: 10px;
 }
 
 /* The sidebar menu */
 .sidenav {
-height: 100%; /* Full-height: remove this if you want "auto" height */
-width: 25%; /* Set the width of the sidebar */
-position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-z-index: 1; /* Stay on top */
-top: 0; /* Stay at the top */
-right: 0;
-background-color: #FFFFFF; /* Black */
-overflow-x: hidden; /* Disable horizontal scroll */
-padding: 6px 8px 6px 0px;
-margin-left: 10px;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 25%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #FFFFFF; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding: 10px 8px 6px 0px;
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
 }
 
 .sidenavFact {
-height: 100%; /* Full-height: remove this if you want "auto" height */
-width: 25%; /* Set the width of the sidebar */
-position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-z-index: 3; /* Stay on top */
-background-color: #FFFFFF; /* Black */
-overflow-x: hidden; /* Disable horizontal scroll */
-padding: 0px 0px 0px 0px;
-top: 0;
-right: 10;
-display: none;
-font-size: 12px;
-font-family: Arial, Helvetica, sans-serif;
-margin-left: 10px;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 25%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 3; /* Stay on top */
+  background-color: #FFFFFF; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding: 0px 0px 0px 0px;
+  top: 0;
+  right: 10;
+  display: none;
+  font-size: 13px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  margin-left: 8px;
 }
 
+
 .sidenavFact p {
-margin-right: 10px;
+  margin-right: 10px;
 }
 
 .sidenavFact b {
-font-style: oblique;
+  font-weight: 550;
 }
 
 .sidenav .closebtn {
@@ -104,74 +151,77 @@ font-style: oblique;
 
 /* The navigation menu links */
 .sidenav a, .dropdown-btn {
-padding: 6px 8px 6px 0px;
-text-decoration: none;
-font-size: 12px;
-font-family: Arial, Helvetica, sans-serif;
-color: #818181;
-display: block;
-width: 100%;
-margin-left: 10px;
+  padding: 6px 8px 6px 0px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  color: #818181;
+  display: block;
+  width: 100%;
+  margin-left: 10px;
 }
 
 /* The navigation menu links */
 .sidenav ab, .dropdown-btn {
-padding: 6px 8px 6px 0px;
-text-decoration: none;
-font-size: 12px;
-font-family: Arial, Helvetica, sans-serif;
-background-color: #f1f1f1;
-display: block;
-width: 100%;
-margin-left: 10px;
+  padding: 6px 8px 6px 0px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 200;
+  font-family: "Raleway", sans-serif;
+  display: block;
+  width: 100%;
+  margin-left: 10px;
 }
 
 /* Catalogue Site Names */
 .sidenav c, .dropdown-btn {
-padding: 6px 8px 6px 0px;
-text-decoration: none;
-font-size: 12px;
-font-family: Arial, Helvetica, sans-serif;
-color: #818181;
-display: block;
-width: 100%;
-margin-left: 10px;
+  padding: 6px 8px 6px 0px;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: "Raleway", sans-serif;
+  color: #818181;
+  display: block;
+  width: 100%;
+  margin-left: 10px;
 }
 
 /* Filter headers */
 .sidenav f {
-padding: 6px 8px 6px 0px;
-text-decoration: none;
-/* text-transform: uppercase; */
-font-size: 12px;
-font-family: Arial, Helvetica, sans-serif;
-color: #818181;
-display: block;
-margin-left: 10px;
+  padding: 6px 8px 0px 0px;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  color: #818181;
+  display: block;
+  margin-left: 10px;
 }
 
 /* The navigation menu links */
 .sidenav t {
-padding: 6px 8px 6px 0px;
-text-decoration: none;
-/* text-transform: uppercase; */
-font-size: 12px;
-font-family: Arial, Helvetica, sans-serif;
-color: #818181;
-display: block;
-margin-left: 10px;
+  padding: 6px 8px 6px 0px;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+  color: #818181;
+  display: block;
+  margin-left: 10px;
 }
 
 /* The navigation menu links */
 .sidenav h {
-padding: 6px 8px 6px 0px;
-text-decoration: none;
-/* text-transform: uppercase; */
-font-size: 14px;
-font-family: Arial, Helvetica, sans-serif;
-color: #000000;
-display: block;
-margin-left: 10px;
+  padding: 6px 8px 6px 0px;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  font-size: 22px; /* 32px */
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  color: #000000;
+  display: block;
+  text-align: center;
+  margin-left: 10px;
 }
 
 .button {
@@ -182,38 +232,54 @@ margin-left: 10px;
   text-align: left;
   text-decoration: none;
   display: block;
-  font-size: 12px;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
   cursor: pointer;
   margin-left: 10px;
 }
 
+.filter {
+  height: 11px;
+  width: 11px;
+}
+
+.button:focus {
+  color: #818181;
+}
 .button:hover {
   color: #f1f1f1;
 }
 
 .button1 {
   width: 100%;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
 }
 
 .button2 {
-  padding-left: 5px;
   margin-left: 0px;
+  font-size: 11px;
+  width: auto;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover, .dropdown-btn-hover {
-color: #818181;
+  color: #818181;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav c:hover, .dropdown-btn-hover {
-color: #f1f1f1;
+  color: #f1f1f1;
 }
 
 /* Style page content */
 .main {
-margin-left: 200px; /* Same as the width of the sidebar */
-padding: 0px 10px;
+  margin-left: 200px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
 }
 
 /* Add an active class to the active dropdown button */
@@ -227,19 +293,32 @@ padding: 0px 10px;
   display: none;
   background-color: #FFFFFF;
   padding-left: 8px;
+  width: 100%;
 }
 
 /* Optional: Style the caret down icon */
 .fa-caret-down {
   float: right;
-  padding-right: 8px;
+  padding-right: 12px;
   color: #000000;
 }
 
+.submit {
+  margin-bottom: 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font: 13px "Raleway", sans-serif;
+  font-weight: 300;
+  outline: 0;
+  padding: 3px 13px 3px 13px;
+  background-color: #f5f5f5;
+}
+
+
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-.sidenav {padding-top: 15px;}
-.sidenav a {font-size: 18px;}
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 
 .twentysixpoint {
@@ -247,11 +326,11 @@ padding: 0px 10px;
 }
 
 .popup {
-  padding-left: 5px;
+  width: auto;
 }
 
 .popup t {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 19pt;
