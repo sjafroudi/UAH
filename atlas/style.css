@@ -1,5 +1,5 @@
 body { margin: 0; padding: 0; }
-#map { position: absolute; top: 0; bottom: 0; width: 74%; z-index: 0; }
+#map { position: absolute; top: 0; bottom: 0; width: 75%; z-index: 0; }
 #more {display: none;} /* read more button */
 
 #menu {
@@ -24,8 +24,8 @@ body { margin: 0; padding: 0; }
   bottom: 35px; /* 10 */
   left: 10px; /* 350 */
   text-align: center;
-  background-color: #fff;
-  opacity: 0.7;
+  background: rgba(255, 255, 255, 0.60);
+  opacity: 0.9;
   border-radius: 3px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   font: 13px "Raleway", sans-serif;
@@ -34,6 +34,12 @@ body { margin: 0; padding: 0; }
   padding: 0px 10px 0px 10px;
 }
 
+.seperator {
+    border-top: 1px solid #eee;
+    height: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
 
 .wrapper {
   position: relative;
@@ -119,6 +125,7 @@ body { margin: 0; padding: 0; }
   font-size: 12px;
   font-family: "Raleway", sans-serif;
   font-weight: 200;
+  box-shadow: -5px 0px 60px -40px;
 }
 
 .sidenavFact {
@@ -216,9 +223,9 @@ body { margin: 0; padding: 0; }
   padding: 6px 8px 6px 0px;
   text-decoration: none;
   /* text-transform: uppercase; */
-  font-size: 22px; /* 32px */
+  font-size: 32px; /* 32px */
   font-family: "Raleway", sans-serif;
-  font-weight: 300;
+  font-weight: 250;
   color: #000000;
   display: block;
   text-align: center;
@@ -226,6 +233,21 @@ body { margin: 0; padding: 0; }
 }
 
 .button {
+  background-color: white; /* Green */
+  border: none;
+  color: #818181;
+  padding: 6px 8px 6px 0px;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.filterHeader {
   background-color: white; /* Green */
   border: none;
   color: #818181;
@@ -292,6 +314,12 @@ body { margin: 0; padding: 0; }
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .dropdown-container {
   display: none;
+  background-color: #FFFFFF;
+  padding-left: 8px;
+  width: 100%;
+}
+
+.filter-container {
   background-color: #FFFFFF;
   padding-left: 8px;
   width: 100%;
