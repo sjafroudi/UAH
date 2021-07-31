@@ -335,6 +335,7 @@ body { margin: 0; padding: 0; }
 
 .submit {
   margin-bottom: 20px;
+  margin-left: 10px;
   align-content: center;
   border: 1px solid grey;
   border-radius: 5px;
