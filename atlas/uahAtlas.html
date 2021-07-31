@@ -7,6 +7,8 @@
   <label for="ckkebwmd4094i17rvfpitb0pz">default</label>
   <input id="sjafroudi/ckr71osae2y9a18preipzbwx0" class="checkbox" type="radio" name="rtoggle" value="streets">
   <label for="ckr71osae2y9a18preipzbwx0">streets</label>
+  <input id="sjafroudi/ckrp5e4mfdup017p3klvxeeg1" class="checkbox" type="radio" name="rtoggle" value="dark">
+  <label for="ckrp5e4mfdup017p3klvxeeg1">dark</label>
   <input id="mapbox/satellite-v9" class="checkbox" type="radio" name="rtoggle" value="satellite">
   <label for="satellite-v9">satellite</label>
 </div>
@@ -447,8 +449,11 @@
       style: 'mapbox://styles/sjafroudi/ckkebwmd4094i17rvfpitb0pz', // style URL
       center: [-16,30], // starting position [lng, lat] 20,0
       zoom: 1.5, // starting zoom 0.2
-      maxBounds: bounds
-    });
+      maxBounds: bounds,
+      attributionControl: false
+    }).addControl(new mapboxgl.AttributionControl({
+        compact: true
+    }), 'bottom-right');
 
     map.on('style.load', function() {
       // Always add the same custom soruces and layers after a style change
@@ -547,6 +552,7 @@
         console.log(genrisks);
         console.log(risks2system);
         console.log(urbanInt);
+        console.log(statusfiltered);
         console.log(uatypefiltered); // filtered list
         console.log(grfiltered);
         console.log(risks2sysfiltered);
@@ -691,7 +697,7 @@
                     statusfiltered.length = 0;
                     // first, filter for type
                     jsonData = Object.values(filterList);
-                    if (uatype.length === 0) {
+                    if (hs.length === 0) {
                       jsonData.forEach(x => statusfiltered.push(x));
                     } else {
                     var uaFiltered = jsonData.filter(ua => ua.heritageStatus == hs[0]
