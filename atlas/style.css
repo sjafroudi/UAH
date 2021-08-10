@@ -349,6 +349,10 @@ body { margin: 0; padding: 0; }
   cursor: pointer;
 }
 
+.button3:hover {
+  color: black;
+}
+
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover, .dropdown-btn-hover {
   color: #818181;
@@ -388,6 +392,33 @@ body { margin: 0; padding: 0; }
 .filter-container {
   background-color: #FFFFFF;
   width: 100%;
+}
+
+.filter-box {
+  height: 300px;
+  overflow-y:auto;
+  border: 1px;
+  border-color: black;
+  margin-left: 5px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 /* Optional: Style the caret down icon */
