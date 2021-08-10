@@ -20,7 +20,7 @@
 
 <!-- Side navigation -->
 <div id="sidenav" class="sidenav">
-  <h href="#">Urban Agricultural Heritage<br>Interactive Atlas</h>
+  <h href="#">Urban Agricultural Heritage Interactive Atlas</h>
 
   <div class="seperator"></div>
 
@@ -44,8 +44,8 @@
     <div class="dropdown-container" id="catalogue">
 
       <ab href="#">North America</ab>
-      <c href="#" class="siteList na" value="Central Experimental Farm" id="Central Experimental Farm" onclick="flyToSiteCentral()">Central Experimental Farm</c>
-      <c href="#" class="siteList na" value="Dowling School Victory Garden" id="Dowling School Victory Garden" onclick="flyToSiteDowling()">Dowling School Victory Garden</c>
+      <c href="#" class="siteList na" value="Central Experimental Farm" id="Central Experimental Farm" onclick="flyToSiteCentral()">Central Experimental Farm<button value="Central Experimental Farm" onclick="catalogueCentral()">FS</button></c>
+      <c href="#" class="siteList na" value="Dowling School Victory Garden" id="Dowling School Victory Garden" onclick="flyToSiteDowling()">Dowling School Victory Garden<button value="Dowling School Victory Garden" onclick="myFunctionDSG()">FS</button></c>
       <c href="#" class="siteList na" value="Fenway Victory Gardens" id="Fenway Victory Gardens" onclick="flyToSiteFenway()">Fenway Victory Gardens</c>
       <c href="#" class="siteList na" value="Five Acre Farm" id="Five Acre Farm" onclick="flyToSiteFive()">Five Acre Farm</c>
       <c href="#" class="siteList" value="Glamorgan Farm" id="Glamorgan Farm" onclick="flyToSiteGlamorgan()">Glamorgan Farm</c>
@@ -121,8 +121,10 @@
           <label for="status6"> Provincial Historic Site</label><br>
           <input type="checkbox" id="status" name="status" value="Local Historic Site" class="filter">
           <label for="status7"> Local Historic Site</label><br>
+          <input type="checkbox" id="status" name="status" value="Cultural Interest Asset" class="filter">
+          <label for="status8"> Cultural Interest Asset</label><br>
           <input type="checkbox" id="status" name="status" value="n/a" class="filter">
-          <label for="status8"> N/A</label><br>
+          <label for="status9"> N/A</label><br>
         </span>
         <button onclick="thisFunc()" id="moreFilters1" class="button3">more ↓</button>
       </t>
@@ -294,7 +296,7 @@
       "urbanIntegration": "Specific/Discrete Zone"
     },
     {
-      "site": "Dachas",
+      "site": "Dachas (St. Petersburg)",
       "heritageStatus": "n/a",
       "uaType":["Allotment Gardens", "Family Gardens"],
       "generalizedRisks":[],
@@ -679,8 +681,8 @@ var bounds = [[-155, -50],[165, 80]];
 var map = new mapboxgl.Map({
   container: 'map', // container id
   style: 'mapbox://styles/sjafroudi/ckkebwmd4094i17rvfpitb0pz', // style URL
-  center: [-16,30], // starting position [lng, lat] 20,0
-  zoom: 1.5, // starting zoom 0.2
+  center: [20,0], // starting position [lng, lat] -16,30
+  zoom: 0.8, // starting zoom 1.5
   maxBounds: bounds,
   attributionControl: false
 }).addControl(new mapboxgl.AttributionControl({
@@ -697,7 +699,7 @@ map.on('style.load', function() {
   // DATA: Site boundaries (i.e., Central Experimental Farm, Five Acre Farm)
   map.addSource('data', {
     type: 'geojson',
-    data: 'https://raw.githubusercontent.com/sjafroudi/UAH/main/uahData_withLists.geojson'
+    data: 'https://raw.githubusercontent.com/sjafroudi/UAH/main/uahData_UpdatedAug7.geojson'
   });
 
   // line
@@ -710,7 +712,7 @@ map.on('style.load', function() {
     },
     'paint': {
       'line-color': '#959ba0',
-      'line-width': 1
+      'line-width': 0.5
     },
     "filter": ["==", "$type", "Polygon"]
   });
@@ -761,6 +763,8 @@ map.on('style.load', function() {
     },
     "filter": ["==", "$type", "Point"]
   });
+
+
 
   // Event listener for submit button
   const submitBtn = document.getElementById('submit');
@@ -2202,7 +2206,18 @@ map.on('style.load', function() {
                         var location = e.features[0].properties.location;
                         var size = e.features[0].properties.size;
                         var heritageStatus = e.features[0].properties.heritageStatus;
+                        var mainProducts = e.features[0].properties.mainProducts;
                         popup.setLngLat(e.lngLat);
+
+                        if (size === "n/a") {
+                          popup.setHTML('<div class="popup"><p class="twentysixpoint"><t href="#">' + site + '</t><br><br>' +
+                          "<strong>Location: </strong>" + location + '<br>' +
+                          "<strong>Heritage Status: </strong>" + heritageStatus + '<br>' +
+                          "<strong>Main products: </strong>" + mainProducts + '<br></p></div>' +
+                          '<button class="button button2" onclick="myFunction()" id="myBtn"><t href="#">' +
+                          "View full fact sheet" + '</button><button class="button button2" id="flyTo">' +
+                          "Zoom to site" + '</t></button>');
+                        } else {
                         popup.setHTML('<div class="popup"><p class="twentysixpoint"><t href="#">' + site + '</t><br><br>' +
                         "<strong>Location: </strong>" + location + '<br>' +
                         "<strong>Size: </strong>" + size + '<br>' +
@@ -2210,6 +2225,8 @@ map.on('style.load', function() {
                         '<button class="button button2" onclick="myFunction()" id="myBtn"><t href="#">' +
                         "View full fact sheet" + '</button><button class="button button2" id="flyTo">' +
                         "Zoom to site" + '</t></button>');
+                      }
+
                         popup.addTo(map);
 
                         // Fly To event
@@ -2234,6 +2251,21 @@ map.on('style.load', function() {
                         });
                       });
 
+                      function myFunctionDSG(e) {
+                        e = "Bye";
+                        cef(e);
+                      }
+
+                      function catalogueCentral(e) {
+                        e = "Central Experimental Farm";
+                        cef(e);
+                      }
+
+                      function cef(e) {
+                        console.log(e);
+                      }
+
+
                       map.on('click', 'site', function(e) {
                         var coordinates = e.features[0].geometry.coordinates;
                         var site = e.features[0].properties.site;
@@ -2251,6 +2283,7 @@ map.on('style.load', function() {
                         var customers = e.features[0].properties.customers;
                         var risks = e.features[0].properties.risks;
                         var incentives = e.features[0].properties.incentives;
+                        var sources = e.features[0].properties.sources;
 
                         var title = document.createElement('strong');
                         sideNav.style.paddingTop = "10px";
@@ -2303,6 +2336,10 @@ map.on('style.load', function() {
                         var incentivesFS = document.createElement('p');
                         incentivesFS.innerHTML = '<b>Current Incentives:  </b>' + incentives;
 
+                        var sourcesFS = document.createElement('p');
+                        sourcesFS.innerHTML = '<b>Sources:  </b><br>' + sources;
+
+
                         var emptySpace = document.createElement('p');
                         emptySpace.innerHTML = ' ';
 
@@ -2323,10 +2360,51 @@ map.on('style.load', function() {
                         sideNav.appendChild(customersFS);
                         sideNav.appendChild(risksFS);
                         sideNav.appendChild(incentivesFS);
+                        sideNav.appendChild(sourcesFS);
                         sideNav.appendChild(emptySpace);
                         sideNav.style.display = 'none';
 
-                      });
+                        if (customers === "n/a") {
+                          sideNav.removeChild(customersFS);
+                        }
+
+                        if (risks === "n/a") {
+                          sideNav.removeChild(risksFS);
+                        }
+
+                        if (cultivationSystem === "n/a") {
+                          sideNav.removeChild(cultivationSystemFS);
+                        }
+
+                        if (geogAndClimate === "n/a") {
+                          sideNav.removeChild(geogAndClimateFS);
+                        }
+
+                        if (integration === "n/a") {
+                          sideNav.removeChild(integrationFS);
+                        }
+
+                        if (operationScale === "n/a") {
+                          sideNav.removeChild(operationScaleFS);
+                        }
+
+                        if (stakeholders === "n/a") {
+                          sideNav.removeChild(stakeholdersFS);
+                        }
+
+                        if (customers === "n/a") {
+                          sideNav.removeChild(customersFS);
+                        }
+
+                        if (incentives === "n/a") {
+                          sideNav.removeChild(custoincentivesFSmersFS);
+                        }
+
+                        if (sources === "n/a") {
+                          sideNav.removeChild(sourcesFS);
+                        }
+
+                        });
 
                       function displayFS() {
                         sideNav.style.display = "block";
