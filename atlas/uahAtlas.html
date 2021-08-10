@@ -20,7 +20,10 @@
 
 <!-- Side navigation -->
 <div id="sidenav" class="sidenav">
+  <img id="newWindow" class="newWindow" src="https://raw.githubusercontent.com/sjafroudi/UAH/main/images/3H2PQ.png" alt="alternatetext">
+
   <h href="#">Urban Agricultural Heritage Interactive Atlas</h>
+
 
   <div class="seperator"></div>
 
@@ -31,7 +34,7 @@
   <!-- Search bar -->
   <form autocomplete="off" action="javascript:void(0);" onsubmit="showSite()" id="searchBar">
     <div class="autocomplete">
-      <input id="myInput" type="text" name="myCountry" placeholder="Search Case Studies" value=""><input id="submitButtonSearch" type="submit">
+      <input id="myInput" type="text" name="mySites" placeholder="Search Case Studies" value=""><input id="submitButtonSearch" type="submit" value="Submit">
     </div>
 
   </form>
@@ -73,14 +76,16 @@
       <c href="#" class="siteList" id="La Huerta de Valencia" onclick="flyToSiteHuerta()">La Huerta de Valencia</c>
       <c href="#">San Francesco Forest</c>
       <c href="#">Tenuta del Cavaliere</c>
-      <c href="#" class="siteList" id="Via Integration" onclick="flyToSiteVia()">Via Integration</c>
+      <c href="#" class="siteList" id="Via Integration" onclick="flyToSiteVia()">Via Integration (Aachen)</c>
       <c href="#" class="siteList" id="Knoblauchsland" onclick="flyToSiteKnoblauchsland()">Knoblauchsland</c>
       <c href="#" class="siteList" id="Sant Erasmo" onclick="flyToSiteSant()">Sant Erasmo</c>
-      <c href="#">Amiens/Bourges</c>
+      <c href="#">Hortillonages d’Amiens</c>
+      <c href="#">Marais de Bourges</c>
       <c href="#">Vega de Granada</c>
       <c href="#">Peachwalls of Montreuil</c>
       <c href="#" class="siteList" id="Dachas (St. Petersburg)" onclick="flyToSiteDachas()">Dachas (St. Petersburg)</c>
-      <c href="#">Palmeral of Elche/Orihuela</c>
+      <c href="#">Palmeral of Elche</c>
+      <c href="#">Palmeral of Orihuela</c>
       <ab href="#">Middle East and North Africa</ab>
       <c href="#">Cairo Dairy Farms</c>
       <c href="#">Qanat-based Saffron Farming System</c>
@@ -90,11 +95,18 @@
       <c href="#">Oranjezicht City Farm</c>
       <c href="#">Philippi Horticultural Area</c>
       <c href="#">Vlei Agriculture Harare</c>
-      <c href="#">VOC Vegetable Garden</c>
+      <c href="#">VOC Vegetable Garden (Cape Town)</c>
       <ab href="#">South & Southeast Asia</ab>
       <c href="#">Home Gardens Hanoi</c>
       <c href="#">Kuttanad Below Sea Level Farming System</c>
     </div>
+
+    <div class="seperator"></div>
+
+    <!-- Catalogue -->
+    <div class="fullExtent">
+    <button class="fullExtentbtn" id="panToFullExtent">Pan to Full Extent</button><button class="fullExtentbtn" id="showAllPoints">Show All Points</button>
+  </div>
 
     <div class="seperator"></div>
 
@@ -121,10 +133,8 @@
           <label for="status6"> Provincial Historic Site</label><br>
           <input type="checkbox" id="status" name="status" value="Local Historic Site" class="filter">
           <label for="status7"> Local Historic Site</label><br>
-          <input type="checkbox" id="status" name="status" value="Cultural Interest Asset" class="filter">
-          <label for="status8"> Cultural Interest Asset</label><br>
           <input type="checkbox" id="status" name="status" value="n/a" class="filter">
-          <label for="status9"> N/A</label><br>
+          <label for="status8"> N/A</label><br>
         </span>
         <button onclick="thisFunc()" id="moreFilters1" class="button3">more ↓</button>
       </t>
@@ -238,7 +248,7 @@
         <label for="risk3"> Land Use and Ownership</label><br>
       </t>
       <br>
-      <button id="submit" class="submit">Submit</button>&emsp;<button id="showall" class="showall">Show All Sites</button><br>
+      <button id="submit" class="submit">Apply Filters</button>&emsp;<button id="showall" class="showall">Show All Sites</button><br>
     </div>
   </div>
 </div>
@@ -266,6 +276,10 @@
   <div id="map"></div>
 
   <script>
+
+    document.getElementById("newWindow").onclick = function () {
+        window.open("https://sjafroudi.github.io/UAH/atlas/uahAtlas.html");
+    };
 
   var filterList = [
     {
@@ -764,6 +778,14 @@ map.on('style.load', function() {
     "filter": ["==", "$type", "Point"]
   });
 
+  document.getElementById("panToFullExtent").addEventListener('click', (event) => {
+   panToFullExtent();
+  });
+
+  const showallPoints = document.getElementById('showAllPoints');
+  showallPoints.addEventListener('click', (event) => {
+    map.setFilter('site', ["==", "$type", "Point"]);
+  });
 
 
   // Event listener for submit button
@@ -783,6 +805,7 @@ map.on('style.load', function() {
     runUrbanIntegrationFilters();
     gatherSiteNames();
     runAllFilters();
+    panToFullExtent();
     console.log(hs); // checkbox values
     console.log(uatype);
     console.log(genrisks);
@@ -2168,6 +2191,14 @@ map.on('style.load', function() {
                             ['==', 'site', siteNames[39]],
                             ['==', 'site', siteNames[40]]]);
                           }
+                        }
+
+                        function panToFullExtent(){
+                          map.flyTo({
+                            center: [0,0],
+                            zoom: 1,
+                            speed: 1.2,
+                          });
                         }
 
                         const showallBtn = document.getElementById('showall');
