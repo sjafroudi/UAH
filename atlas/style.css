@@ -21,6 +21,10 @@ body { margin: 0; padding: 0; }
   border-radius: 3px;
 }
 
+.info {
+  height: 10px;
+  width: 10px;
+}
 
 #note {
   position: absolute;
@@ -274,6 +278,22 @@ body { margin: 0; padding: 0; }
 }
 
 
+.filterPanelHeader {
+  background-color: white; /* Green */
+  border: none;
+  color: #818181;
+  padding: 6px 8px 6px 0px;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  font-size: 13px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  margin-left: 10px;
+  cursor: auto;
+}
+
 .button {
   background-color: white; /* Green */
   border: none;
@@ -313,7 +333,7 @@ body { margin: 0; padding: 0; }
   color: #818181;
 }
 .button:hover {
-  color: #f1f1f1;
+  color: black;
 }
 
 .button1 {
@@ -392,14 +412,20 @@ body { margin: 0; padding: 0; }
 .filter-container {
   background-color: #FFFFFF;
   width: 100%;
+  padding-top: 10px;
 }
 
 .filter-box {
-  height: 300px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  height: 298px;
   overflow-y:auto;
-  border: 1px;
   border-color: black;
   margin-left: 5px;
+  border-radius: 5px;
+  border: 1.5px solid #f1f1f1;
+  box-shadow: inset 0px 0px 10px 0px #f1f1f1;
+
 }
 
 ::-webkit-scrollbar {
@@ -409,11 +435,13 @@ body { margin: 0; padding: 0; }
 /* Track */
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
+  border-radius: 5px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #888;
+  border-radius: 5px;
 }
 
 /* Handle on hover */
@@ -428,24 +456,30 @@ body { margin: 0; padding: 0; }
   color: #000000;
 }
 
-
 .submit {
   margin-bottom: 20px;
-  margin-left: 10px;
   align-content: center;
   border: 1px solid grey;
   border-radius: 5px;
-  font: 13px "Raleway", sans-serif;
+  font: 12px "Raleway", sans-serif;
   font-weight: 300;
   outline: 0;
   padding: 3px 13px 3px 13px;
   background-color: #f5f5f5;
 }
 
-.header {
-position: relative;
-display: flex;
-justify-content: space-between;
+.submit:hover {
+  background-color: #c4c4c4;
+  cursor: pointer;
+}
+
+.filterSubmitandClear {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+  margin-left: 45px;
+  margin-right: 45px;
 }
 
 .fullExtent {
@@ -454,6 +488,12 @@ margin-right: 15px;
 position: relative;
 display: flex;
 justify-content: space-between;
+}
+
+.filter-headers {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
 .fullExtentbtn {
@@ -469,7 +509,12 @@ justify-content: space-between;
   transform: scale(0.9);
 }
 
+.fullExtentbtn:hover {
+  background-color: #d96666;
+}
+
 .showall {
+  margin-top: 5px;
   margin-bottom: 20px;
   border: 1px solid grey;
   border-radius: 5px;
@@ -540,6 +585,10 @@ input[type=submit] {
   text-align: center;
   margin-right: 0px;
   transform: scale(0.9);
+}
+
+input[type=submit]:hover {
+  background-color: #d96666;
 }
 
 .autocomplete-items {
