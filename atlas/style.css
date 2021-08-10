@@ -84,13 +84,8 @@ body { margin: 0; padding: 0; }
   background-color: white;
 }
 
-#siteList {
-    padding-inline-start: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 20px;
-    font: 13px "Raleway", sans-serif;
-    display: none;
+.siteList {
+    cursor: pointer;
 }
 
 .sites {
@@ -256,16 +251,28 @@ body { margin: 0; padding: 0; }
 /* The navigation menu links */
 .sidenav h {
   padding: 6px 8px 6px 0px;
+  font-weight: 300;
   text-decoration: none;
   /* text-transform: uppercase; */
   font-size: 15px; /* 32px */
   font-family: "Raleway", sans-serif;
-  font-weight: 250;
+
   color: #000000;
   display: block;
   text-align: center;
   margin-left: 10px;
 }
+
+.newWindow {
+  position: absolute;
+  right: 0;
+  top: 8px;
+  padding-right: 7px;
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+}
+
 
 .button {
   background-color: white; /* Green */
@@ -404,6 +411,33 @@ body { margin: 0; padding: 0; }
   background-color: #f5f5f5;
 }
 
+.header {
+position: relative;
+display: flex;
+justify-content: space-between;
+}
+
+.fullExtent {
+margin-left: 15px;
+margin-right: 15px;
+position: relative;
+display: flex;
+justify-content: space-between;
+}
+
+.fullExtentbtn {
+  border: 1px solid transparent;
+  width: 190px;
+  background-color: #cc3333;
+  padding: 7px;
+  font: 13px "Raleway", sans-serif;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 0px;
+  transform: scale(0.9);
+}
+
 .showall {
   margin-bottom: 20px;
   border: 1px solid grey;
@@ -437,8 +471,6 @@ body { margin: 0; padding: 0; }
   line-height: 19pt;
 }
 
-
-
 body {
   font: 16px Arial;
 }
@@ -470,10 +502,10 @@ input[type=text] {
 }
 
 input[type=submit] {
-  background-color: DodgerBlue;
+  background-color: #cc3333;
   color: #fff;
   cursor: pointer;
-  font: 14px "Raleway", sans-serif;
+  font: 13px "Raleway", sans-serif;
   text-align: center;
   margin-right: 0px;
   transform: scale(0.9);
