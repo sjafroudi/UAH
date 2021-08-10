@@ -111,11 +111,14 @@
     <div class="seperator"></div>
 
     <!-- Filter -->
-    <button class="button button1">Filters</button>
+    <div class="filterPanelHeader">Filters</div>
     <!--   <i class="fa fa-caret-down"></i></button> -->
     <div class="filter-container">
       <div class="filter-box">
-      <f href="#">Heritage Status</f>
+        <div class="filter-headers">
+          <f href="#">Heritage Status</f>
+      <!--<f href="#">Heritage Status <img id="hsInfo" class="info" src="https://raw.githubusercontent.com/sjafroudi/UAH/main/images/icons8-info-48.png" alt="alternatetext"></f>-->
+    </div>
       <t href="#">
         <!--<input type="checkbox" id="status" name="status" value="all" class="filter">-->
         <!--<label for="status"> All</label><br>-->
@@ -248,11 +251,12 @@
         <input type="checkbox" id="risk" name="risk" value="Land Use/Ownership" class="filter">
         <label for="risk3"> Land Use and Ownership</label><br>
       </t>
-      <br>
+
     </div>
-    <br>
-      <button id="submit" class="submit">Apply Filters</button>&emsp;<button id="showall" class="showall">Clear Filters</button><br>
+    <div class="filterSubmitandClear">
+      <button id="submit" class="submit">Apply Filters</button>&emsp;<button id="showall" class="submit">Clear Filters</button><br>
     </div>
+  </div>
   </div>
 </div>
 
