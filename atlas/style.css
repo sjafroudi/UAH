@@ -232,7 +232,7 @@ body { margin: 0; padding: 0; }
   padding: 6px 8px 0px 0px;
   text-decoration: none;
   /* text-transform: uppercase; */
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
   font-family: "Raleway", sans-serif;
   color: #818181;
@@ -246,7 +246,7 @@ body { margin: 0; padding: 0; }
   padding: 6px 8px 6px 0px;
   text-decoration: none;
   /* text-transform: uppercase; */
-  font-size: 12px;
+  font-size: 11px;
   font-family: "Raleway", sans-serif;
   color: #818181;
   display: block;
@@ -258,7 +258,7 @@ body { margin: 0; padding: 0; }
   padding: 6px 8px 6px 0px;
   text-decoration: none;
   /* text-transform: uppercase; */
-  font-size: 32px; /* 32px */
+  font-size: 15px; /* 32px */
   font-family: "Raleway", sans-serif;
   font-weight: 250;
   color: #000000;
@@ -311,7 +311,7 @@ body { margin: 0; padding: 0; }
 
 .button1 {
   width: 100%;
-  font-size: 14px;
+  font-size: 13px;
   font-family: "Raleway", sans-serif;
   font-weight: 200;
   /*margin-left: 20px; */
@@ -333,7 +333,7 @@ body { margin: 0; padding: 0; }
   text-align: left;
   text-decoration: none;
   margin-left: 0px;
-  font-size: 11px;
+  font-size: 10px;
   width: auto;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
@@ -446,7 +446,8 @@ body {
 /*the container must be positioned relative:*/
 .autocomplete {
   position: relative;
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   right: 0;
   left: 0;
@@ -460,12 +461,12 @@ input {
 }
 
 input[type=text] {
-  margin-left: 15px;
   margin-right: 0px;
-  width: 65%;
+  width: 75%;
   background-color: #f1f1f1;
   font: 14px "Raleway", sans-serif;
   align-items: center;
+  transform: scale(0.9);
 }
 
 input[type=submit] {
@@ -475,6 +476,7 @@ input[type=submit] {
   font: 14px "Raleway", sans-serif;
   text-align: center;
   margin-right: 0px;
+  transform: scale(0.9);
 }
 
 .autocomplete-items {
@@ -489,7 +491,7 @@ input[type=submit] {
   right: 0;
   margin-left: 15px;
   margin-right: 0px;
-  width: 72%;
+  width: 70%;
 }
 
 .autocomplete-items div {
