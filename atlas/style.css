@@ -421,7 +421,7 @@ body { margin: 0; padding: 0; }
   height: 298px;
   overflow-y:auto;
   border-color: black;
-  margin-left: 5px;
+  margin-left: 10px;
   border-radius: 5px;
   border: 1.5px solid #f1f1f1;
   box-shadow: inset 0px 0px 10px 0px #f1f1f1;
