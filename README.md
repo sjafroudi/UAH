@@ -1,8 +1,8 @@
 ## UAH File Directory
     .
     ├── ...
-    ├── GeoJSON                                          
-    │   └── uahData.geojson                              # fact sheets in GeoJSON format, including additional spatial data (i.e., polygons)
+    ├── GeoJSON                                          # fact sheets in GeoJSON format, including additional spatial data (i.e., polygons)  
+    ├── GitHubPages                                      # GitHub Pages theme files  
     ├── Superseded                                       # GeoJSON files prior to aggregation
     │   ├── boundaries                  
     │   │   ├── municipalBoundaries.geojson              # Municipal boundaries
@@ -16,8 +16,6 @@
     ├── atlas
     │   ├── style.css                                    # stylesheet
     │   └── uahAtlas.html                                # html
-    ├── images   
-    │   ├── mapbox-marker-icon-20px-gray.png             # marker
-    │   └── marker-stroked15.png                         # marker
-    ├── factSheetTemplate.txt                            # geoJSON template for fact sheet information
+    ├── images                                           # markers
+    ├── factSheetTemplate                                # geoJSON template for fact sheet information
     └── ...
