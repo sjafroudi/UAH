@@ -13,10 +13,6 @@
   <label for="satellite-v9">satellite</label>
 </div>
 
-<!-- Basemap menu -->
-<div id="note">
-  <p>Click on a point<br>to learn more</p>
-</div>
 
 <!-- Side navigation -->
 <div id="sidenav" class="sidenav">
@@ -126,9 +122,9 @@
         <label for="status1"> UN FAO GIAHS</label><br>
         <input type="checkbox" id="status" name="status" value="UN FAO GIAHS Pending" class="filter">
         <label for="status2"> UN FAO GIAHS Pending</label><br>
-        <input type="checkbox" id="status" name="status" value="UNESCO" class="filter">
-        <label for="status3"> UNESCO Heritage Site</label><br>
         <input type="checkbox" id="status" name="status" value="UNESCO Heritage Site" class="filter">
+        <label for="status3"> UNESCO Heritage Site</label><br>
+        <input type="checkbox" id="status" name="status" value="UNESCO Heritage Site Pending" class="filter">
         <label for="status4"> UNESCO Heritage Site Pending</label><br>
         <span id="dots">...</span><span id="more">
           <input type="checkbox" id="status" name="status" value="National Historic Site" class="filter">
@@ -256,7 +252,9 @@
     <div class="filterSubmitandClear">
       <button id="submit" class="submit">Apply Filters</button>&emsp;<button id="showall" class="submit">Clear Filters</button><br>
     </div>
+
   </div>
+  <n href="#">Map Author: Sara Jafroudi</n>
   </div>
 </div>
 
@@ -280,7 +278,10 @@
 
 <body>
 
-  <div id="map"></div>
+  <div id="map">
+    <div id="note">
+    </div>
+  </div>
 
   <script>
 
@@ -729,7 +730,7 @@ map.on('style.load', function() {
     data: 'https://raw.githubusercontent.com/sjafroudi/UAH/main/GeoJSON/uahData_UpdatedOct17.geojson'
   });
 
-  // line
+  // boundaries
   map.addLayer({
     'id': 'boundary',
     'type': 'line',
@@ -742,6 +743,20 @@ map.on('style.load', function() {
       'line-width': 0.5
     },
     "filter": ["==", "$type", "Polygon"]
+  });
+  // line
+  map.addLayer({
+    'id': 'lines',
+    'type': 'line',
+    'source': 'data',
+    'layout': {
+      'visibility': 'visible'
+    },
+    'paint': {
+      'line-color': '#959ba0',
+      'line-width': 0.5
+    },
+    "filter": ["==", "$type", "LineString"]
   });
   // fill multi polygons
   map.addLayer({
