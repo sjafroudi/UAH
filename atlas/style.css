@@ -28,17 +28,16 @@ body { margin: 0; padding: 0; }
 
 #note {
   position: absolute;
-  bottom: 35px; /* 10 */
-  left: 10px; /* 350 */
+  top: 0px; /* 10 */
+  right: 0px; /* 350 */
+  display: flex;
   text-align: center;
   background: rgba(255, 255, 255, 0.60);
   opacity: 0.9;
-  border-radius: 3px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  font: 13px "Raleway", sans-serif;
+  font: 11px "Raleway", sans-serif;
   font-weight: 200;
   z-index: 4;
-  padding: 0px 10px 0px 10px;
 }
 
 .seperator {
@@ -267,6 +266,19 @@ body { margin: 0; padding: 0; }
   margin-left: 10px;
 }
 
+
+.sidenav n {
+  padding: 6px 8px 6px 0px;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 12px; /* 32px */
+  font-family: "Raleway", sans-serif;
+  color: #818181;
+  display: block;
+  text-align: center;
+  margin-left: 10px;
+}
+
 .newWindow {
   position: absolute;
   right: 0;
@@ -418,7 +430,7 @@ body { margin: 0; padding: 0; }
 .filter-box {
   padding-top: 3px;
   padding-bottom: 3px;
-  height: 298px;
+  height: 50vh; /*298px;*/
   overflow-y:auto;
   border-color: black;
   margin-left: 10px;
