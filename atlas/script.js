@@ -2362,4 +2362,4 @@ map.on('style.load', function() {
                           speed: 1.2,
                           curve: 1.42,
                         });
-                      }                      }
+                      }                      
