@@ -73,6 +73,60 @@ document.getElementById("newWindow").onclick = function () {
       "urbanIntegration":"Specific/Discrete Zone"
     },
     {
+      "site":"Fenway Victory Gardens",
+      "heritageStatus":"",
+      "uaType":[""],
+      "generalizedRisks":[""],
+      "risksToSystem":[""],
+      "landUseSystem":["", ""],
+      "urbanIntegration":""
+    },
+    {
+      "site":"Glamorgan Farm",
+      "heritageStatus":"",
+      "uaType":[""],
+      "generalizedRisks":[""],
+      "risksToSystem":[""],
+      "landUseSystem":["", ""],
+      "urbanIntegration":""
+    },
+    {
+      "site":"London Heritage Farm",
+      "heritageStatus":"",
+      "uaType":[""],
+      "generalizedRisks":[""],
+      "risksToSystem":[""],
+      "landUseSystem":["", ""],
+      "urbanIntegration":""
+    },
+    {
+      "site":"Newman Farm",
+      "heritageStatus":"",
+      "uaType":[""],
+      "generalizedRisks":[""],
+      "risksToSystem":[""],
+      "landUseSystem":["", ""],
+      "urbanIntegration":""
+    },
+    {
+      "site":"Lisbon Municipal Horticultural Parks",
+      "heritageStatus":"",
+      "uaType":[""],
+      "generalizedRisks":[""],
+      "risksToSystem":[""],
+      "landUseSystem":["", ""],
+      "urbanIntegration":""
+    },
+    {
+      "site":"Sant'Erasmo",
+      "heritageStatus":"",
+      "uaType":[""],
+      "generalizedRisks":[""],
+      "risksToSystem":[""],
+      "landUseSystem":["", ""],
+      "urbanIntegration":""
+    },
+    {
       "site":"Jucker Farm",
       "heritageStatus":"n/a",
       "uaType":["Commercial Farm"],
